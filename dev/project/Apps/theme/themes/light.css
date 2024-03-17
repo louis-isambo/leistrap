@@ -1,0 +1,42 @@
+:root {
+    --leis-body-cl: #f8f8f8;
+    --leis-container-cl: #fff;
+    --leis-default-btn-cl: #e1e9ff;
+    --leis-select-cl: #98c3f16b;
+    --leis-select-txt-cl: var(--leis-text-cl);
+    --leis-active-cl: #0069d9;
+    --leis-active-txt-cl: #fff;
+    --leis-text-cl: #5f5d5d;
+    --leis-text-hv-cl: #000;
+    --leis-font-size: 1rem;
+    --leis-toolbar-cl: var(--leis-active-cl);
+    --leis-controlBar-cl: inherit;
+    --leis-z-index-header: 100;
+    --leis-z-index-drop-up: 200;
+    --leis-z-index-tooltip: 150;
+    --leis-border: 1px solid #f7eaead8;
+}
+
+
+
+
+/* sideBar*/
+.leis-sideNav {
+    background-color: var(--leis-container-cl);
+    z-index: var(--leis-z-index-header);
+    color: var(--leis-text-cl)
+}
+
+.leis-sideNav .leis-list-group .leis-child-group {
+    color: var(--leis-text-cl)
+}
+
+.leis-sideNav .leis-list-group .leis-child-group:not(.colla-item):hover {
+    background-color: var(--leis-select-cl);
+    color: var(--leis-select-txt-cl);
+}
+
+.leis-sideNav .leis-list-group .leis-child-group.sideItemActive {
+    background-color: var(--leis-active-cl);
+    color: var(--leis-active-txt-cl);
+}

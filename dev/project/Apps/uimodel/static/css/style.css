@@ -1,0 +1,198 @@
+:root {
+    --ui5-bigSide: 250px;
+    --ui5-smallSide: 60px;
+    --ui5-head: 40px;
+    --ui5-toolbar: 20px;
+    --ui5-side-height: calc(100% - (var(--ui5-head) + var(--ui5-toolbar)));
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cell {
+    outline: none;
+    border: none;
+    padding: none;
+    margin: none;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+
+.cell:not(:first-child) {
+    border-left: 1px solid #ccc;
+}
+
+.flexTable-container {
+    padding: 0;
+    margin: 0;
+}
+
+.flexTable-table {
+    border: 1px solid #ccc;
+}
+
+.flexttable-row,
+.flexttable-head {
+    width: 100%;
+    position: relative;
+    margin: 0;
+
+
+}
+
+.flexttable-row {
+    border-top: 1px solid #ccc;
+
+}
+
+.flexttable-body {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* ui5 */
+
+.ui5-head {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: var(--ui5-head);
+    border-bottom: var(--leis-border);
+    background-color: var(--leis-container-cl);
+    z-index: var(--leis-z-index-header);
+}
+
+.leis-sideNav,
+.ui5-big-side {
+    height: var(--ui5-side-height);
+    top: var(--ui5-head);
+    border-right: var(--leis-border);
+    box-shadow: none;
+
+}
+
+.ui5-small-side {
+    width: var(--ui5-smallSide);
+}
+
+.ui5-small-side i {
+    font-size: 1.5rem;
+}
+
+.ui5-big-side {
+    position: fixed;
+    left: var(--ui5-smallSide);
+    border-right: var(--leis-border);
+    background-color: var(--leis-container-cl);
+    width: var(--ui5-bigSide);
+    z-index: var(--leis-z-index-header);
+}
+
+.ui5-body {
+    background-color: inherit;
+    width: calc(100% - (var(--ui5-bigSide) + var(--ui5-smallSide) + 40px));
+    height: calc(100vh - 75px);
+    padding: 16px;
+    margin-left: 320px;
+    margin-top: 50px;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.ui5-toolbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: var(--ui5-toolbar);
+    background-color: var(--leis-toolbar-cl);
+    z-index: var(--leis-z-index-drop-up);
+    border-top: var(--leis-border);
+}
+
+.ui5-controlBar {
+    background-color: var(--leis-controlBar-cl);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+}
+
+.ui5-cardCtrl {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.ui5-controlBar button,
+.ui5-controlBar button:active {
+    font-weight: 500;
+    border: none;
+    box-shadow: none !important;
+    outline: none;
+    background-color: inherit;
+    color: var(--leis-text-cl);
+}
+
+.ui5-controlBar button {
+    padding: 6px 0;
+}
+
+.ui5-controlBar button i {
+    font-size: 1.2rem;
+}
+
+.ui5-controlBar button:hover {
+    background-color: inherit;
+    transform: scale(1.05);
+    color: var(--leis-text-hv-cl);
+}
+
+.ui5-cardCtrl button[class *="w-icon"]:not(:first-child) {
+    position: relative;
+    top: 10px;
+    background-color: var(--leis-default-btn-cl);
+    padding: 0;
+    height: 20px;
+}
+
+.ui5-cardCtrl button[class *="w-icon"]:not(:first-child) i {
+    position: relative;
+    left: 5px;
+    top: -3px;
+}
+
+.ui5-cardCtrl button[class *="close"] {
+    position: relative;
+    padding: 0 0.5rem;
+    border: none;
+    border-radius: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.ui5-cardCtrl button[class *="close"] span {
+    position: relative;
+    left: 2px;
+    top: -7px;
+}
+
+.ui5-cardCtrl button[class *="close"]:hover {
+    background-color: rgb(232, 58, 58);
+    color: #fff;
+}

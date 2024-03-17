@@ -1,0 +1,57 @@
+.todo-side-container * {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: none;
+}
+
+.todo-side-taskList {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: calc(100vh - 60px);
+    background-color: inherit;
+}
+
+.todo-side-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.todo-side-taskList .sideNavHeader {
+    color: var(--leis-text-cl);
+    border-bottom: var(--leis-border);
+}
+
+.todo-side-container .leis-tabs-btn,
+.todo-side-container .leis-collapse-btn {
+    font-weight: 400;
+    font-size: var(--leis-font-size);
+    padding: 0 18px;
+
+}
+
+.todo-side-container .leis-collapse-btn::before {
+    left: 0;
+}
+
+
+.todo-side-container .leis-collapse-btn:hover,
+.todo-side-container .leis-collapse-btn.colla-btn-show {
+    color: var(--leis-primary) !important;
+    font-weight: 400 !important;
+    border: none;
+    box-shadow: none;
+}
+
+.todo-side-container .leis-collapse-btn.active,
+.todo-side-container .colla-item {
+    background-color: inherit;
+
+}
+
+.todo-side-container .leis-collapsing .leis-list-group {
+    margin-left: 18px;
+}

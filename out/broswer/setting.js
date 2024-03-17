@@ -1,0 +1,5 @@
+leistrap({
+    theme: "light",
+    dir: "./"
+})
+

@@ -1,0 +1,18 @@
+:root {
+    --leis-body-cl: #111;
+    --leis-container-cl: #fff;
+    --leis-default-btn-cl: #e1e9ff;
+    --leis-select-cl: #98c3f16b;
+    --leis-select-txt-cl: var(--leis-text-cl);
+    --leis-active-cl: #0069d9;
+    --leis-active-txt-cl: #fff;
+    --leis-txt-cl: #fff;
+    --leis-text-hv-cl: #fff;
+    --leis-font-size: 1rem;
+    --leis-toolbar-cl: var(--leis-active-cl);
+    --leis-controlBar-cl: inherit;
+    --leis-z-index-header: 100;
+    --leis-z-index-drop-up: 200;
+    --leis-z-index-tooltip: 150;
+    --leis-border: 1px solid #f7eaead8;
+}

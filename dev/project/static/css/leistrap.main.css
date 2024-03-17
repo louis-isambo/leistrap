@@ -1,0 +1,7767 @@
+/* -------------------- root ---------------------------- */
+@import url("./font/bs-icons.min.css");
+@import url("./resizable.css");
+
+:root {
+    --leis-chat-card-bg-cl: #f4eff8;
+    --leis-body-cl: #f8f8f8;
+
+    --leis-sideNav-cl: hsla(0, 0%, 100%, 0.942);
+    --leis-sideNav-bx-sh: 0 2px 9px rgba(0, 0, 0, .16);
+    --leis-highlight-cl: var(--leis-body-cl);
+    --leis-txt-cl: hsla(0, 0%, 0%, 0.962);
+    --leis-card-cl: #fff;
+    --leis-card-bx-sh: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    --leis-card-bd: 1.5px solid rgba(0, 0, 0, .16);
+    --leis-card-sms-bx-sh: rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    --leis-line-separator-cl: #d4d4da;
+    --leis-default-cl: #f8f7fc;
+    --leis-default-selector: #f6f6f6;
+    --leis-img-cd-cl: #f1f1f1;
+    --leis-subtitle-cl: rgb(152, 150, 150);
+    --leis-img-outline-cl: #aeaeae;
+
+    --leis-nav-cl: #fcfbfbcf;
+    --leis-nav-bx-sh: rgba(0, 0, 0, .16) 0px 1px 4px;
+
+    --leis-accordion-bx-sh: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 2px 1.5px;
+    --leis-accordion-head-cl: #525752;
+    --leis-accordion-footer-cl: #c4c2c7;
+    --leis-accordion-head-txt-cl: hsla(0, 14%, 93%, 0.889);
+    --leis-accordion-footer-bx-sh: 0 0 3px rgba(11, 11, 11, 0.543);
+    --leis-primary-cl: #2c7be5;
+    --leis-primary-hover-cl: #1457b0;
+    --leis-primary-focus-bx-sh: 0 0 0 3px #007bff80;
+    --leis-primary-bd-hv-cl: #0062cc;
+    --leis-primary-bd-cl: #007bff;
+    --leis-primary-bd-fc-cl: #98caff;
+
+    --leis-secondary-cl: #868e96;
+    --leis-secondary-hover-cl: #717171;
+    --leis-primary-bd-cl: #868e96;
+    --leis-secondary-focus-bx-sh: 0 0 0 3px #a4acb5;
+    --leis-secondary-bd-hv-cl: #b0b6bc;
+    --leis-secondary-bd-fc-cl: #e4ecf5;
+
+    --leis-success-cl: #28a745;
+    --leis-success-hover-cl: #25933e;
+    --leis-success-bd-cl: #28a745;
+    --leis-success-focus-bx-sh: 0 0 0 3px #39c55a;
+    --leis-seccess-bd-hv-cl: #39da5e;
+
+
+    --leis-custom-success-cl: #2e443d;
+    --leis-custom-success-bd-cl: #83c89b;
+    --leis-custom-success-text-cl: #45875b;
+
+    --leis-warning-cl: #ffc107;
+    --leis-warning-hover-cl: #f0c648;
+    --leis-warning-bd-cl: #ffc107;
+    --leis-warning-focus-bx-sh: 0 0 0 3px #ffd24d;
+    --leis-warning-bd-hv-cl: #e5ba3b;
+
+    --leis-danger-cl: #dc3545;
+    --leis-danger-hover-cl: #ce2c3c;
+    --leis-danger-bd-cl: #dc3545;
+    --leis-danger-focus-bx-sh: 0 0 0 3px #f3384a;
+    --leis-danger-bd-hv-cl: #f3384a;
+
+    --leis-info-cl: #abdde5;
+    --leis-info-hover-cl: #89cdd7;
+    --leis-info-bd-cl: #abdde5;
+    --leis-info-focus-bx-sh: 0 0 0 3px #c6f5fc;
+    --leis-info-bd-hv-cl: #c6f5fc;
+
+    --leis-light-cl: #fefeff;
+    --leis-light-hover-cl: #dddde2;
+    --leis-light-bd-cl: #d8d8de;
+    --leis-light-focus-bx-sh: 0 0 0 3px #dffafd;
+    --leis-light-bd-hv-cl: #dffafd;
+
+    --leis-dark-cl: #23272b;
+    --leis-dark-hover-cl: #485157;
+    --leis-dark-bd-cl: #424950;
+    --leis-dark-focus-bx-sh: 0 0 0 3px #48525b;
+    --leis-dark-bd-hv-cl: #515960;
+    --leis-effect-img: contrast(1.5) brightness(1.02) saturate(108%);
+    --leis-border-width: 1.2px;
+    --leis-heading-color: inherit;
+    --leis-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --leis-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --leis-font-size: 1rem;
+    --leis-resize-cl: var(--leis-primary-cl);
+    --leis-select-cl: #f6f3f3a3;
+}
+
+
+/* reset padding and marging */
+.leis::before,
+.leisie::before,
+.leis::after,
+.leisie::after,
+.ls::after,
+.ls::before,
+.leis,
+.leisie,
+
+.ls {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit
+}
+
+button,
+select {
+    text-transform: none
+}
+
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--leis-border-width) solid;
+    opacity: .25
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--leis-heading-color)
+}
+
+th {
+    padding: 0 10px;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+
+body {
+    color: var(--leis-txt-cl);
+    background-color: var(--leis-body-cl);
+    font-family: var(--leis-font-sans-serif);
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: var(--leis-font-size);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+[type=search] {
+    outline-offset: -2px;
+    -webkit-appearance: textfield
+}
+
+::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-color-swatch-wrapper {
+    padding: 0
+}
+
+::-webkit-file-upload-button {
+    font: inherit;
+    -webkit-appearance: button
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* layout*/
+
+.leis-layout {
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+
+.leis-hbox-item {
+    position: relative;
+    font-size: inherit;
+    text-align: inherit;
+    min-height: 100%;
+}
+
+.leis-vbox-item {
+    position: relative;
+    min-width: 100%;
+    font-size: inherit;
+}
+
+/* flexbox */
+
+.leis-flex {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    margin-bottom: 0.5em;
+
+}
+
+.leis-flex.leis-row,
+.leis-row {
+    -webkit-box-orient: horizontal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.leis-flex.leis-column,
+.leis-colunm {
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.l-g-s {
+    gap: 0.5rem;
+}
+
+.l-g-n {
+    gap: 1rem;
+}
+
+.l-g-n {
+    gap: 1.5rem;
+}
+
+
+/* padding  */
+
+.leis-padding-10 {
+    padding: 10px;
+}
+
+.leis-padding-20 {
+    padding: 20px;
+}
+
+.leis-padding-1rem {
+    padding: 1rem;
+}
+
+.leis-padding-20p {
+    padding: 20%;
+}
+
+.leis-padding-10p {
+    padding: 10%;
+}
+
+.leis-padding-14-16 {
+    padding: 14px 16px;
+}
+
+.leis-padding-10-18 {
+    padding: 10px 18px;
+}
+
+.leis-padding-2rem {
+    padding: 2rem;
+}
+
+.leis-padding-28-35 {
+    padding: 28px 35px;
+}
+
+.leis-padding-1 {
+    padding: 1px;
+}
+
+.leis-padding-2 {
+    padding: 2px;
+}
+
+.leis-padding-3 {
+    padding: 3px;
+}
+
+.leis-padding-4 {
+    padding: 4px;
+}
+
+.leis-padding-5 {
+    padding: 5px;
+}
+
+.leis-padding-6 {
+    padding: 6px;
+}
+
+.leis-padding-7 {
+    padding: 7px;
+}
+
+.leis-padding-8 {
+    padding: 8px;
+}
+
+.leis-padding-9 {
+    padding: 9px;
+}
+
+.leis-padding-10 {
+    padding: 10px;
+}
+
+.leis-padding-11 {
+    padding: 11px;
+}
+
+.leis-padding-12 {
+    padding: 12px;
+}
+
+.leis-padding-13 {
+    padding: 13px;
+}
+
+.leis-padding-14 {
+    padding: 14px;
+}
+
+.leis-padding-15 {
+    padding: 15px;
+}
+
+.leis-padding-16 {
+    padding: 16px;
+}
+
+.leis-padding-17 {
+    padding: 17px;
+}
+
+.leis-padding-18 {
+    padding: 18px;
+}
+
+.leis-padding-19 {
+    padding: 19px;
+}
+
+.leis-padding-20 {
+    padding: 20px;
+}
+
+.leis-padding-21 {
+    padding: 21px;
+}
+
+.leis-padding-22 {
+    padding: 22px;
+}
+
+.leis-padding-23 {
+    padding: 23px;
+}
+
+.leis-padding-24 {
+    padding: 24px;
+}
+
+.leis-padding-25 {
+    padding: 25px;
+}
+
+.leis-padding-26 {
+    padding: 26px;
+}
+
+.leis-padding-27 {
+    padding: 27px;
+}
+
+.leis-padding-28 {
+    padding: 28px;
+}
+
+.leis-padding-29 {
+    padding: 29px;
+}
+
+.leis-padding-30 {
+    padding: 30px;
+}
+
+.leis-padding-31 {
+    padding: 31px;
+}
+
+.leis-padding-32 {
+    padding: 32px;
+}
+
+.leis-padding-33 {
+    padding: 33px;
+}
+
+.leis-padding-34 {
+    padding: 34px;
+}
+
+.leis-padding-35 {
+    padding: 35px;
+}
+
+.leis-padding-36 {
+    padding: 36px;
+}
+
+.leis-padding-37 {
+    padding: 37px;
+}
+
+.leis-padding-38 {
+    padding: 38px;
+}
+
+.leis-padding-39 {
+    padding: 39px;
+}
+
+.leis-padding-40 {
+    padding: 40px;
+}
+
+.leis-padding-41 {
+    padding: 41px;
+}
+
+.leis-padding-42 {
+    padding: 42px;
+}
+
+.leis-padding-43 {
+    padding: 43px;
+}
+
+.leis-padding-44 {
+    padding: 44px;
+}
+
+.leis-padding-45 {
+    padding: 45px;
+}
+
+.leis-padding-46 {
+    padding: 46px;
+}
+
+.leis-padding-47 {
+    padding: 47px;
+}
+
+.leis-padding-48 {
+    padding: 48px;
+}
+
+.leis-padding-49 {
+    padding: 49px;
+}
+
+.leis-padding-50 {
+    padding: 50px;
+}
+
+.leis-padding-51 {
+    padding: 51px;
+}
+
+.leis-padding-52 {
+    padding: 52px;
+}
+
+.leis-padding-53 {
+    padding: 53px;
+}
+
+.leis-padding-54 {
+    padding: 54px;
+}
+
+.leis-padding-55 {
+    padding: 55px;
+}
+
+.leis-padding-56 {
+    padding: 56px;
+}
+
+.leis-padding-57 {
+    padding: 57px;
+}
+
+.leis-padding-58 {
+    padding: 58px;
+}
+
+.leis-padding-59 {
+    padding: 59px;
+}
+
+.leis-padding-60 {
+    padding: 60px;
+}
+
+.leis-padding-61 {
+    padding: 61px;
+}
+
+.leis-padding-62 {
+    padding: 62px;
+}
+
+.leis-padding-63 {
+    padding: 63px;
+}
+
+.leis-padding-64 {
+    padding: 64px;
+}
+
+.leis-padding-65 {
+    padding: 65px;
+}
+
+.leis-padding-66 {
+    padding: 66px;
+}
+
+.leis-padding-67 {
+    padding: 67px;
+}
+
+.leis-padding-68 {
+    padding: 68px;
+}
+
+.leis-padding-69 {
+    padding: 69px;
+}
+
+.leis-padding-70 {
+    padding: 70px;
+}
+
+.leis-padding-71 {
+    padding: 71px;
+}
+
+.leis-padding-72 {
+    padding: 72px;
+}
+
+.leis-padding-73 {
+    padding: 73px;
+}
+
+.leis-padding-74 {
+    padding: 74px;
+}
+
+.leis-padding-75 {
+    padding: 75px;
+}
+
+.leis-padding-76 {
+    padding: 76px;
+}
+
+.leis-padding-77 {
+    padding: 77px;
+}
+
+.leis-padding-78 {
+    padding: 78px;
+}
+
+.leis-padding-79 {
+    padding: 79px;
+}
+
+.leis-padding-80 {
+    padding: 80px;
+}
+
+.leis-padding-81 {
+    padding: 81px;
+}
+
+.leis-padding-82 {
+    padding: 82px;
+}
+
+.leis-padding-83 {
+    padding: 83px;
+}
+
+.leis-padding-84 {
+    padding: 84px;
+}
+
+.leis-padding-85 {
+    padding: 85px;
+}
+
+.leis-padding-86 {
+    padding: 86px;
+}
+
+.leis-padding-87 {
+    padding: 87px;
+}
+
+.leis-padding-88 {
+    padding: 88px;
+}
+
+.leis-padding-89 {
+    padding: 89px;
+}
+
+.leis-padding-90 {
+    padding: 90px;
+}
+
+.leis-padding-91 {
+    padding: 91px;
+}
+
+.leis-padding-92 {
+    padding: 92px;
+}
+
+.leis-padding-93 {
+    padding: 93px;
+}
+
+.leis-padding-94 {
+    padding: 94px;
+}
+
+.leis-padding-95 {
+    padding: 95px;
+}
+
+.leis-padding-96 {
+    padding: 96px;
+}
+
+.leis-padding-97 {
+    padding: 97px;
+}
+
+.leis-padding-98 {
+    padding: 98px;
+}
+
+.leis-padding-99 {
+    padding: 99px;
+}
+
+.leis-padding-1rem {
+    padding: 1rem;
+}
+
+.leis-padding-2rem {
+    padding: 2rem;
+}
+
+.leis-padding-3rem {
+    padding: 3rem;
+}
+
+.leis-padding-4rem {
+    padding: 4rem;
+}
+
+.leis-padding-5rem {
+    padding: 5rem;
+}
+
+.leis-padding-6rem {
+    padding: 6rem;
+}
+
+.leis-padding-7rem {
+    padding: 7rem;
+}
+
+.leis-padding-8rem {
+    padding: 8rem;
+}
+
+.leis-padding-9rem {
+    padding: 9rem;
+}
+
+.leis-padding-10rem {
+    padding: 10rem;
+}
+
+.leis-padding-11rem {
+    padding: 11rem;
+}
+
+.leis-padding-12rem {
+    padding: 12rem;
+}
+
+.leis-padding-13rem {
+    padding: 13rem;
+}
+
+.leis-padding-14rem {
+    padding: 14rem;
+}
+
+.leis-padding-15rem {
+    padding: 15rem;
+}
+
+.leis-padding-16rem {
+    padding: 16rem;
+}
+
+.leis-padding-17rem {
+    padding: 17rem;
+}
+
+.leis-padding-18rem {
+    padding: 18rem;
+}
+
+.leis-padding-19rem {
+    padding: 19rem;
+}
+
+.leis-padding-1-6 {
+    padding: 1px 6px;
+}
+
+.leis-padding-2-7 {
+    padding: 2px 7px;
+}
+
+.leis-padding-3-8 {
+    padding: 3px 8px;
+}
+
+.leis-padding-4-9 {
+    padding: 4px 9px;
+}
+
+.leis-padding-5-10 {
+    padding: 5px 10px;
+}
+
+.leis-padding-6-11 {
+    padding: 6px 11px;
+}
+
+.leis-padding-7-12 {
+    padding: 7px 12px;
+}
+
+.leis-padding-8-13 {
+    padding: 8px 13px;
+}
+
+.leis-padding-9-14 {
+    padding: 9px 14px;
+}
+
+.leis-padding-10-15 {
+    padding: 10px 15px;
+}
+
+.leis-padding-11-16 {
+    padding: 11px 16px;
+}
+
+.leis-padding-12-17 {
+    padding: 12px 17px;
+}
+
+.leis-padding-13-18 {
+    padding: 13px 18px;
+}
+
+.leis-padding-14-19 {
+    padding: 14px 19px;
+}
+
+.leis-padding-15-20 {
+    padding: 15px 20px;
+}
+
+.leis-padding-16-21 {
+    padding: 16px 21px;
+}
+
+.leis-padding-17-22 {
+    padding: 17px 22px;
+}
+
+.leis-padding-18-23 {
+    padding: 18px 23px;
+}
+
+.leis-padding-19-24 {
+    padding: 19px 24px;
+}
+
+.leis-padding-20-25 {
+    padding: 20px 25px;
+}
+
+.leis-padding-21-26 {
+    padding: 21px 26px;
+}
+
+.leis-padding-22-27 {
+    padding: 22px 27px;
+}
+
+.leis-padding-23-28 {
+    padding: 23px 28px;
+}
+
+.leis-padding-24-29 {
+    padding: 24px 29px;
+}
+
+.leis-padding-25-30 {
+    padding: 25px 30px;
+}
+
+.leis-padding-26-31 {
+    padding: 26px 31px;
+}
+
+.leis-padding-27-32 {
+    padding: 27px 32px;
+}
+
+.leis-padding-28-33 {
+    padding: 28px 33px;
+}
+
+.leis-padding-29-34 {
+    padding: 29px 34px;
+}
+
+.leis-padding-30-35 {
+    padding: 30px 35px;
+}
+
+.leis-padding-31-36 {
+    padding: 31px 36px;
+}
+
+.leis-padding-32-37 {
+    padding: 32px 37px;
+}
+
+.leis-padding-33-38 {
+    padding: 33px 38px;
+}
+
+.leis-padding-34-39 {
+    padding: 34px 39px;
+}
+
+.leis-padding-35-40 {
+    padding: 35px 40px;
+}
+
+.leis-padding-36-41 {
+    padding: 36px 41px;
+}
+
+.leis-padding-37-42 {
+    padding: 37px 42px;
+}
+
+.leis-padding-38-43 {
+    padding: 38px 43px;
+}
+
+.leis-padding-39-44 {
+    padding: 39px 44px;
+}
+
+.leis-padding-40-45 {
+    padding: 40px 45px;
+}
+
+.leis-padding-41-46 {
+    padding: 41px 46px;
+}
+
+.leis-padding-42-47 {
+    padding: 42px 47px;
+}
+
+.leis-padding-43-48 {
+    padding: 43px 48px;
+}
+
+.leis-padding-44-49 {
+    padding: 44px 49px;
+}
+
+.leis-padding-45-50 {
+    padding: 45px 50px;
+}
+
+.leis-padding-46-51 {
+    padding: 46px 51px;
+}
+
+.leis-padding-47-52 {
+    padding: 47px 52px;
+}
+
+.leis-padding-48-53 {
+    padding: 48px 53px;
+}
+
+.leis-padding-49-54 {
+    padding: 49px 54px;
+}
+
+.leis-padding-10p {
+    padding: 10%;
+}
+
+.leis-padding-20p {
+    padding: 20%;
+}
+
+.leis-padding-30p {
+    padding: 30%;
+}
+
+.leis-padding-40p {
+    padding: 40%;
+}
+
+.leis-padding-left-0 {
+    padding-left: 0px;
+}
+
+.leis-padding-left-1 {
+    padding-left: 1px;
+}
+
+.leis-padding-left-2 {
+    padding-left: 2px;
+}
+
+.leis-padding-left-3 {
+    padding-left: 3px;
+}
+
+.leis-padding-left-4 {
+    padding-left: 4px;
+}
+
+.leis-padding-left-5 {
+    padding-left: 5px;
+}
+
+.leis-padding-left-6 {
+    padding-left: 6px;
+}
+
+.leis-padding-left-7 {
+    padding-left: 7px;
+}
+
+.leis-padding-left-8 {
+    padding-left: 8px;
+}
+
+.leis-padding-left-9 {
+    padding-left: 9px;
+}
+
+.leis-padding-left-10 {
+    padding-left: 10px;
+}
+
+.leis-padding-left-11 {
+    padding-left: 11px;
+}
+
+.leis-padding-left-12 {
+    padding-left: 12px;
+}
+
+.leis-padding-left-13 {
+    padding-left: 13px;
+}
+
+.leis-padding-left-14 {
+    padding-left: 14px;
+}
+
+.leis-padding-left-15 {
+    padding-left: 15px;
+}
+
+.leis-padding-left-16 {
+    padding-left: 16px;
+}
+
+.leis-padding-left-17 {
+    padding-left: 17px;
+}
+
+.leis-padding-left-18 {
+    padding-left: 18px;
+}
+
+.leis-padding-left-19 {
+    padding-left: 19px;
+}
+
+.leis-padding-left-20 {
+    padding-left: 20px;
+}
+
+.leis-padding-left-21 {
+    padding-left: 21px;
+}
+
+.leis-padding-left-22 {
+    padding-left: 22px;
+}
+
+.leis-padding-left-23 {
+    padding-left: 23px;
+}
+
+.leis-padding-left-24 {
+    padding-left: 24px;
+}
+
+.leis-padding-left-25 {
+    padding-left: 25px;
+}
+
+.leis-padding-left-26 {
+    padding-left: 26px;
+}
+
+.leis-padding-left-27 {
+    padding-left: 27px;
+}
+
+.leis-padding-left-28 {
+    padding-left: 28px;
+}
+
+.leis-padding-left-29 {
+    padding-left: 29px;
+}
+
+.leis-padding-left-30 {
+    padding-left: 30px;
+}
+
+.leis-padding-left-31 {
+    padding-left: 31px;
+}
+
+.leis-padding-left-32 {
+    padding-left: 32px;
+}
+
+.leis-padding-left-33 {
+    padding-left: 33px;
+}
+
+.leis-padding-left-34 {
+    padding-left: 34px;
+}
+
+.leis-padding-left-35 {
+    padding-left: 35px;
+}
+
+.leis-padding-left-36 {
+    padding-left: 36px;
+}
+
+.leis-padding-left-37 {
+    padding-left: 37px;
+}
+
+.leis-padding-left-38 {
+    padding-left: 38px;
+}
+
+.leis-padding-left-39 {
+    padding-left: 39px;
+}
+
+.leis-padding-left-40 {
+    padding-left: 40px;
+}
+
+.leis-padding-left-41 {
+    padding-left: 41px;
+}
+
+.leis-padding-left-42 {
+    padding-left: 42px;
+}
+
+.leis-padding-left-43 {
+    padding-left: 43px;
+}
+
+.leis-padding-left-44 {
+    padding-left: 44px;
+}
+
+.leis-padding-left-45 {
+    padding-left: 45px;
+}
+
+.leis-padding-left-46 {
+    padding-left: 46px;
+}
+
+.leis-padding-left-47 {
+    padding-left: 47px;
+}
+
+.leis-padding-left-48 {
+    padding-left: 48px;
+}
+
+.leis-padding-left-49 {
+    padding-left: 49px;
+}
+
+.leis-padding-left-50 {
+    padding-left: 50px;
+}
+
+.leis-padding-left-51 {
+    padding-left: 51px;
+}
+
+.leis-padding-left-52 {
+    padding-left: 52px;
+}
+
+.leis-padding-left-53 {
+    padding-left: 53px;
+}
+
+.leis-padding-left-54 {
+    padding-left: 54px;
+}
+
+.leis-padding-left-55 {
+    padding-left: 55px;
+}
+
+.leis-padding-left-56 {
+    padding-left: 56px;
+}
+
+.leis-padding-left-57 {
+    padding-left: 57px;
+}
+
+.leis-padding-left-58 {
+    padding-left: 58px;
+}
+
+.leis-padding-left-59 {
+    padding-left: 59px;
+}
+
+.leis-padding-left-60 {
+    padding-left: 60px;
+}
+
+.leis-padding-left-61 {
+    padding-left: 61px;
+}
+
+.leis-padding-left-62 {
+    padding-left: 62px;
+}
+
+.leis-padding-left-63 {
+    padding-left: 63px;
+}
+
+.leis-padding-left-64 {
+    padding-left: 64px;
+}
+
+.leis-padding-left-65 {
+    padding-left: 65px;
+}
+
+.leis-padding-left-66 {
+    padding-left: 66px;
+}
+
+.leis-padding-left-67 {
+    padding-left: 67px;
+}
+
+.leis-padding-left-68 {
+    padding-left: 68px;
+}
+
+.leis-padding-left-69 {
+    padding-left: 69px;
+}
+
+.leis-padding-left-70 {
+    padding-left: 70px;
+}
+
+.leis-padding-left-71 {
+    padding-left: 71px;
+}
+
+.leis-padding-left-72 {
+    padding-left: 72px;
+}
+
+.leis-padding-left-73 {
+    padding-left: 73px;
+}
+
+.leis-padding-left-74 {
+    padding-left: 74px;
+}
+
+.leis-padding-left-75 {
+    padding-left: 75px;
+}
+
+.leis-padding-left-76 {
+    padding-left: 76px;
+}
+
+.leis-padding-left-77 {
+    padding-left: 77px;
+}
+
+.leis-padding-left-78 {
+    padding-left: 78px;
+}
+
+.leis-padding-left-79 {
+    padding-left: 79px;
+}
+
+.leis-padding-left-80 {
+    padding-left: 80px;
+}
+
+.leis-padding-left-81 {
+    padding-left: 81px;
+}
+
+.leis-padding-left-82 {
+    padding-left: 82px;
+}
+
+.leis-padding-left-83 {
+    padding-left: 83px;
+}
+
+.leis-padding-left-84 {
+    padding-left: 84px;
+}
+
+.leis-padding-left-85 {
+    padding-left: 85px;
+}
+
+.leis-padding-left-86 {
+    padding-left: 86px;
+}
+
+.leis-padding-left-87 {
+    padding-left: 87px;
+}
+
+.leis-padding-left-88 {
+    padding-left: 88px;
+}
+
+.leis-padding-left-89 {
+    padding-left: 89px;
+}
+
+.leis-padding-left-90 {
+    padding-left: 90px;
+}
+
+.leis-padding-left-91 {
+    padding-left: 91px;
+}
+
+.leis-padding-left-92 {
+    padding-left: 92px;
+}
+
+.leis-padding-left-93 {
+    padding-left: 93px;
+}
+
+.leis-padding-left-94 {
+    padding-left: 94px;
+}
+
+.leis-padding-left-95 {
+    padding-left: 95px;
+}
+
+.leis-padding-left-96 {
+    padding-left: 96px;
+}
+
+.leis-padding-left-97 {
+    padding-left: 97px;
+}
+
+.leis-padding-left-98 {
+    padding-left: 98px;
+}
+
+.leis-padding-left-99 {
+    padding-left: 99px;
+
+}
+
+.leis-padding-left-100 {
+    padding-left: 100px;
+}
+
+.leis-padding-right-0 {
+    padding-right: 0px;
+}
+
+.leis-padding-right-1 {
+    padding-right: 1px;
+}
+
+.leis-padding-right-2 {
+    padding-right: 2px;
+}
+
+.leis-padding-right-3 {
+    padding-right: 3px;
+}
+
+.leis-padding-right-4 {
+    padding-right: 4px;
+}
+
+.leis-padding-right-5 {
+    padding-right: 5px;
+}
+
+.leis-padding-right-6 {
+    padding-right: 6px;
+}
+
+.leis-padding-right-7 {
+    padding-right: 7px;
+}
+
+.leis-padding-right-8 {
+    padding-right: 8px;
+}
+
+.leis-padding-right-9 {
+    padding-right: 9px;
+}
+
+.leis-padding-right-10 {
+    padding-right: 10px;
+}
+
+.leis-padding-right-11 {
+    padding-right: 11px;
+}
+
+.leis-padding-right-12 {
+    padding-right: 12px;
+}
+
+.leis-padding-right-13 {
+    padding-right: 13px;
+}
+
+.leis-padding-right-14 {
+    padding-right: 14px;
+}
+
+.leis-padding-right-15 {
+    padding-right: 15px;
+}
+
+.leis-padding-right-16 {
+    padding-right: 16px;
+}
+
+.leis-padding-right-17 {
+    padding-right: 17px;
+}
+
+.leis-padding-right-18 {
+    padding-right: 18px;
+}
+
+.leis-padding-right-19 {
+    padding-right: 19px;
+}
+
+.leis-padding-right-20 {
+    padding-right: 20px;
+}
+
+.leis-padding-right-21 {
+    padding-right: 21px;
+}
+
+.leis-padding-right-22 {
+    padding-right: 22px;
+}
+
+.leis-padding-right-23 {
+    padding-right: 23px;
+}
+
+.leis-padding-right-24 {
+    padding-right: 24px;
+}
+
+.leis-padding-right-25 {
+    padding-right: 25px;
+}
+
+.leis-padding-right-26 {
+    padding-right: 26px;
+}
+
+.leis-padding-right-27 {
+    padding-right: 27px;
+}
+
+.leis-padding-right-28 {
+    padding-right: 28px;
+}
+
+.leis-padding-right-29 {
+    padding-right: 29px;
+}
+
+.leis-padding-right-30 {
+    padding-right: 30px;
+}
+
+.leis-padding-right-31 {
+    padding-right: 31px;
+}
+
+.leis-padding-right-32 {
+    padding-right: 32px;
+}
+
+.leis-padding-right-33 {
+    padding-right: 33px;
+}
+
+.leis-padding-right-34 {
+    padding-right: 34px;
+}
+
+.leis-padding-right-35 {
+    padding-right: 35px;
+}
+
+.leis-padding-right-36 {
+    padding-right: 36px;
+}
+
+.leis-padding-right-37 {
+    padding-right: 37px;
+}
+
+.leis-padding-right-38 {
+    padding-right: 38px;
+}
+
+.leis-padding-right-39 {
+    padding-right: 39px;
+}
+
+.leis-padding-right-40 {
+    padding-right: 40px;
+}
+
+.leis-padding-right-41 {
+    padding-right: 41px;
+}
+
+.leis-padding-right-42 {
+    padding-right: 42px;
+}
+
+.leis-padding-right-43 {
+    padding-right: 43px;
+}
+
+.leis-padding-right-44 {
+    padding-right: 44px;
+}
+
+.leis-padding-right-45 {
+    padding-right: 45px;
+}
+
+.leis-padding-right-46 {
+    padding-right: 46px;
+}
+
+.leis-padding-right-47 {
+    padding-right: 47px;
+}
+
+.leis-padding-right-48 {
+    padding-right: 48px;
+}
+
+.leis-padding-right-49 {
+    padding-right: 49px;
+}
+
+.leis-padding-right-50 {
+    padding-right: 50px;
+}
+
+.leis-padding-right-51 {
+    padding-right: 51px;
+}
+
+.leis-padding-right-52 {
+    padding-right: 52px;
+}
+
+.leis-padding-right-53 {
+    padding-right: 53px;
+}
+
+.leis-padding-right-54 {
+    padding-right: 54px;
+}
+
+.leis-padding-right-55 {
+    padding-right: 55px;
+}
+
+.leis-padding-right-56 {
+    padding-right: 56px;
+}
+
+.leis-padding-right-57 {
+    padding-right: 57px;
+}
+
+.leis-padding-right-58 {
+    padding-right: 58px;
+}
+
+.leis-padding-right-59 {
+    padding-right: 59px;
+}
+
+.leis-padding-right-60 {
+    padding-right: 60px;
+}
+
+.leis-padding-right-61 {
+    padding-right: 61px;
+}
+
+.leis-padding-right-62 {
+    padding-right: 62px;
+}
+
+.leis-padding-right-63 {
+    padding-right: 63px;
+}
+
+.leis-padding-right-64 {
+    padding-right: 64px;
+}
+
+.leis-padding-right-65 {
+    padding-right: 65px;
+}
+
+.leis-padding-right-66 {
+    padding-right: 66px;
+}
+
+.leis-padding-right-67 {
+    padding-right: 67px;
+}
+
+.leis-padding-right-68 {
+    padding-right: 68px;
+}
+
+.leis-padding-right-69 {
+    padding-right: 69px;
+}
+
+.leis-padding-right-70 {
+    padding-right: 70px;
+}
+
+.leis-padding-right-71 {
+    padding-right: 71px;
+}
+
+.leis-padding-right-72 {
+    padding-right: 72px;
+}
+
+.leis-padding-right-73 {
+    padding-right: 73px;
+}
+
+.leis-padding-right-74 {
+    padding-right: 74px;
+}
+
+.leis-padding-right-75 {
+    padding-right: 75px;
+}
+
+.leis-padding-right-76 {
+    padding-right: 76px;
+}
+
+.leis-padding-right-77 {
+    padding-right: 77px;
+}
+
+.leis-padding-right-78 {
+    padding-right: 78px;
+}
+
+.leis-padding-right-79 {
+    padding-right: 79px;
+}
+
+.leis-padding-right-80 {
+    padding-right: 80px;
+}
+
+.leis-padding-right-81 {
+    padding-right: 81px;
+}
+
+.leis-padding-right-82 {
+    padding-right: 82px;
+}
+
+.leis-padding-right-83 {
+    padding-right: 83px;
+}
+
+.leis-padding-right-84 {
+    padding-right: 84px;
+}
+
+.leis-padding-right-85 {
+    padding-right: 85px;
+}
+
+.leis-padding-right-86 {
+    padding-right: 86px;
+}
+
+.leis-padding-right-87 {
+    padding-right: 87px;
+}
+
+.leis-padding-right-88 {
+    padding-right: 88px;
+}
+
+.leis-padding-right-89 {
+    padding-right: 89px;
+}
+
+.leis-padding-right-90 {
+    padding-right: 90px;
+}
+
+.leis-padding-right-91 {
+    padding-right: 91px;
+}
+
+.leis-padding-right-92 {
+    padding-right: 92px;
+}
+
+.leis-padding-right-93 {
+    padding-right: 93px;
+}
+
+.leis-padding-right-94 {
+    padding-right: 94px;
+}
+
+.leis-padding-right-95 {
+    padding-right: 95px;
+}
+
+.leis-padding-right-96 {
+    padding-right: 96px;
+}
+
+.leis-padding-right-97 {
+    padding-right: 97px;
+}
+
+.leis-padding-right-98 {
+    padding-right: 98px;
+}
+
+.leis-padding-right-99 {
+    padding-right: 99px;
+}
+
+.leis-padding-right-100 {
+    padding-right: 100px;
+}
+
+.leis-padding-top-0 {
+    padding-top: 0px;
+}
+
+.leis-padding-top-1 {
+    padding-top: 1px;
+}
+
+.leis-padding-top-2 {
+    padding-top: 2px;
+}
+
+.leis-padding-top-3 {
+    padding-top: 3px;
+}
+
+.leis-padding-top-4 {
+    padding-top: 4px;
+}
+
+.leis-padding-top-5 {
+    padding-top: 5px;
+}
+
+.leis-padding-top-6 {
+    padding-top: 6px;
+}
+
+.leis-padding-top-7 {
+    padding-top: 7px;
+}
+
+.leis-padding-top-8 {
+    padding-top: 8px;
+}
+
+.leis-padding-top-9 {
+    padding-top: 9px;
+}
+
+.leis-padding-top-10 {
+    padding-top: 10px;
+}
+
+.leis-padding-top-11 {
+    padding-top: 11px;
+}
+
+.leis-padding-top-12 {
+    padding-top: 12px;
+}
+
+.leis-padding-top-13 {
+    padding-top: 13px;
+}
+
+.leis-padding-top-14 {
+    padding-top: 14px;
+}
+
+.leis-padding-top-15 {
+    padding-top: 15px;
+}
+
+.leis-padding-top-16 {
+    padding-top: 16px;
+}
+
+.leis-padding-top-17 {
+    padding-top: 17px;
+}
+
+.leis-padding-top-18 {
+    padding-top: 18px;
+}
+
+.leis-padding-top-19 {
+    padding-top: 19px;
+}
+
+.leis-padding-top-20 {
+    padding-top: 20px;
+}
+
+.leis-padding-top-21 {
+    padding-top: 21px;
+}
+
+.leis-padding-top-22 {
+    padding-top: 22px;
+}
+
+.leis-padding-top-23 {
+    padding-top: 23px;
+}
+
+.leis-padding-top-24 {
+    padding-top: 24px;
+}
+
+.leis-padding-top-25 {
+    padding-top: 25px;
+}
+
+.leis-padding-top-26 {
+    padding-top: 26px;
+}
+
+.leis-padding-top-27 {
+    padding-top: 27px;
+}
+
+.leis-padding-top-28 {
+    padding-top: 28px;
+}
+
+.leis-padding-top-29 {
+    padding-top: 29px;
+}
+
+.leis-padding-top-30 {
+    padding-top: 30px;
+}
+
+.leis-padding-top-31 {
+    padding-top: 31px;
+}
+
+.leis-padding-top-32 {
+    padding-top: 32px;
+}
+
+.leis-padding-top-33 {
+    padding-top: 33px;
+}
+
+.leis-padding-top-34 {
+    padding-top: 34px;
+}
+
+.leis-padding-top-35 {
+    padding-top: 35px;
+}
+
+.leis-padding-top-36 {
+    padding-top: 36px;
+}
+
+.leis-padding-top-37 {
+    padding-top: 37px;
+}
+
+.leis-padding-top-38 {
+    padding-top: 38px;
+}
+
+.leis-padding-top-39 {
+    padding-top: 39px;
+}
+
+.leis-padding-top-40 {
+    padding-top: 40px;
+}
+
+.leis-padding-top-41 {
+    padding-top: 41px;
+}
+
+.leis-padding-top-42 {
+    padding-top: 42px;
+}
+
+.leis-padding-top-43 {
+    padding-top: 43px;
+}
+
+.leis-padding-top-44 {
+    padding-top: 44px;
+}
+
+.leis-padding-top-45 {
+    padding-top: 45px;
+}
+
+.leis-padding-top-46 {
+    padding-top: 46px;
+}
+
+.leis-padding-top-47 {
+    padding-top: 47px;
+}
+
+.leis-padding-top-48 {
+    padding-top: 48px;
+}
+
+.leis-padding-top-49 {
+    padding-top: 49px;
+}
+
+.leis-padding-top-50 {
+    padding-top: 50px;
+}
+
+.leis-padding-top-51 {
+    padding-top: 51px;
+}
+
+.leis-padding-top-52 {
+    padding-top: 52px;
+}
+
+.leis-padding-top-53 {
+    padding-top: 53px;
+}
+
+.leis-padding-top-54 {
+    padding-top: 54px;
+}
+
+.leis-padding-top-55 {
+    padding-top: 55px;
+}
+
+.leis-padding-top-56 {
+    padding-top: 56px;
+}
+
+.leis-padding-top-57 {
+    padding-top: 57px;
+}
+
+.leis-padding-top-58 {
+    padding-top: 58px;
+}
+
+.leis-padding-top-59 {
+    padding-top: 59px;
+}
+
+.leis-padding-top-60 {
+    padding-top: 60px;
+}
+
+.leis-padding-top-61 {
+    padding-top: 61px;
+}
+
+.leis-padding-top-62 {
+    padding-top: 62px;
+}
+
+.leis-padding-top-63 {
+    padding-top: 63px;
+}
+
+.leis-padding-top-64 {
+    padding-top: 64px;
+}
+
+.leis-padding-top-65 {
+    padding-top: 65px;
+}
+
+.leis-padding-top-66 {
+    padding-top: 66px;
+}
+
+.leis-padding-top-67 {
+    padding-top: 67px;
+}
+
+.leis-padding-top-68 {
+    padding-top: 68px;
+}
+
+.leis-padding-top-69 {
+    padding-top: 69px;
+}
+
+.leis-padding-top-70 {
+    padding-top: 70px;
+}
+
+.leis-padding-top-71 {
+    padding-top: 71px;
+}
+
+.leis-padding-top-72 {
+    padding-top: 72px;
+}
+
+.leis-padding-top-73 {
+    padding-top: 73px;
+}
+
+.leis-padding-top-74 {
+    padding-top: 74px;
+}
+
+.leis-padding-top-75 {
+    padding-top: 75px;
+}
+
+.leis-padding-top-76 {
+    padding-top: 76px;
+}
+
+.leis-padding-top-77 {
+    padding-top: 77px;
+}
+
+.leis-padding-top-78 {
+    padding-top: 78px;
+}
+
+.leis-padding-top-79 {
+    padding-top: 79px;
+}
+
+.leis-padding-top-80 {
+    padding-top: 80px;
+}
+
+.leis-padding-top-81 {
+    padding-top: 81px;
+}
+
+.leis-padding-top-82 {
+    padding-top: 82px;
+}
+
+.leis-padding-top-83 {
+    padding-top: 83px;
+}
+
+.leis-padding-top-84 {
+    padding-top: 84px;
+}
+
+.leis-padding-top-85 {
+    padding-top: 85px;
+}
+
+.leis-padding-top-86 {
+    padding-top: 86px;
+}
+
+.leis-padding-top-87 {
+    padding-top: 87px;
+}
+
+.leis-padding-top-88 {
+    padding-top: 88px;
+}
+
+.leis-padding-top-89 {
+    padding-top: 89px;
+}
+
+.leis-padding-top-90 {
+    padding-top: 90px;
+}
+
+.leis-padding-top-91 {
+    padding-top: 91px;
+}
+
+.leis-padding-top-92 {
+    padding-top: 92px;
+}
+
+.leis-padding-top-93 {
+    padding-top: 93px;
+}
+
+.leis-padding-top-94 {
+    padding-top: 94px;
+}
+
+.leis-padding-top-95 {
+    padding-top: 95px;
+}
+
+.leis-padding-top-96 {
+    padding-top: 96px;
+}
+
+.leis-padding-top-97 {
+    padding-top: 97px;
+}
+
+.leis-padding-top-98 {
+    padding-top: 98px;
+}
+
+.leis-padding-top-99 {
+    padding-top: 99px;
+}
+
+.leis-padding-top-100 {
+    padding-top: 100px;
+}
+
+.leis-padding-bottom-0 {
+    padding-bottom: 0px;
+}
+
+.leis-padding-bottom-1 {
+    padding-bottom: 1px;
+}
+
+.leis-padding-bottom-2 {
+    padding-bottom: 2px;
+}
+
+.leis-padding-bottom-3 {
+    padding-bottom: 3px;
+}
+
+.leis-padding-bottom-4 {
+    padding-bottom: 4px;
+}
+
+.leis-padding-bottom-5 {
+    padding-bottom: 5px;
+}
+
+.leis-padding-bottom-6 {
+    padding-bottom: 6px;
+}
+
+.leis-padding-bottom-7 {
+    padding-bottom: 7px;
+}
+
+.leis-padding-bottom-8 {
+    padding-bottom: 8px;
+}
+
+.leis-padding-bottom-9 {
+    padding-bottom: 9px;
+}
+
+.leis-padding-bottom-10 {
+    padding-bottom: 10px;
+}
+
+.leis-padding-bottom-11 {
+    padding-bottom: 11px;
+}
+
+.leis-padding-bottom-12 {
+    padding-bottom: 12px;
+}
+
+.leis-padding-bottom-13 {
+    padding-bottom: 13px;
+}
+
+.leis-padding-bottom-14 {
+    padding-bottom: 14px;
+}
+
+.leis-padding-bottom-15 {
+    padding-bottom: 15px;
+}
+
+.leis-padding-bottom-16 {
+    padding-bottom: 16px;
+}
+
+.leis-padding-bottom-17 {
+    padding-bottom: 17px;
+}
+
+.leis-padding-bottom-18 {
+    padding-bottom: 18px;
+}
+
+.leis-padding-bottom-19 {
+    padding-bottom: 19px;
+}
+
+.leis-padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.leis-padding-bottom-21 {
+    padding-bottom: 21px;
+}
+
+.leis-padding-bottom-22 {
+    padding-bottom: 22px;
+}
+
+.leis-padding-bottom-23 {
+    padding-bottom: 23px;
+}
+
+.leis-padding-bottom-24 {
+    padding-bottom: 24px;
+}
+
+.leis-padding-bottom-25 {
+    padding-bottom: 25px;
+}
+
+.leis-padding-bottom-26 {
+    padding-bottom: 26px;
+}
+
+.leis-padding-bottom-27 {
+    padding-bottom: 27px;
+}
+
+.leis-padding-bottom-28 {
+    padding-bottom: 28px;
+}
+
+.leis-padding-bottom-29 {
+    padding-bottom: 29px;
+}
+
+.leis-padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.leis-padding-bottom-31 {
+    padding-bottom: 31px;
+}
+
+.leis-padding-bottom-32 {
+    padding-bottom: 32px;
+}
+
+.leis-padding-bottom-33 {
+    padding-bottom: 33px;
+}
+
+.leis-padding-bottom-34 {
+    padding-bottom: 34px;
+}
+
+.leis-padding-bottom-35 {
+    padding-bottom: 35px;
+}
+
+.leis-padding-bottom-36 {
+    padding-bottom: 36px;
+}
+
+.leis-padding-bottom-37 {
+    padding-bottom: 37px;
+}
+
+.leis-padding-bottom-38 {
+    padding-bottom: 38px;
+}
+
+.leis-padding-bottom-39 {
+    padding-bottom: 39px;
+}
+
+.leis-padding-bottom-40 {
+    padding-bottom: 40px;
+}
+
+.leis-padding-bottom-41 {
+    padding-bottom: 41px;
+}
+
+.leis-padding-bottom-42 {
+    padding-bottom: 42px;
+}
+
+.leis-padding-bottom-43 {
+    padding-bottom: 43px;
+}
+
+.leis-padding-bottom-44 {
+    padding-bottom: 44px;
+}
+
+.leis-padding-bottom-45 {
+    padding-bottom: 45px;
+}
+
+.leis-padding-bottom-46 {
+    padding-bottom: 46px;
+}
+
+.leis-padding-bottom-47 {
+    padding-bottom: 47px;
+}
+
+.leis-padding-bottom-48 {
+    padding-bottom: 48px;
+}
+
+.leis-padding-bottom-49 {
+    padding-bottom: 49px;
+}
+
+.leis-padding-bottom-50 {
+    padding-bottom: 50px;
+}
+
+.leis-padding-bottom-51 {
+    padding-bottom: 51px;
+}
+
+.leis-padding-bottom-52 {
+    padding-bottom: 52px;
+}
+
+.leis-padding-bottom-53 {
+    padding-bottom: 53px;
+}
+
+.leis-padding-bottom-54 {
+    padding-bottom: 54px;
+}
+
+.leis-padding-bottom-55 {
+    padding-bottom: 55px;
+}
+
+.leis-padding-bottom-56 {
+    padding-bottom: 56px;
+}
+
+.leis-padding-bottom-57 {
+    padding-bottom: 57px;
+}
+
+.leis-padding-bottom-58 {
+    padding-bottom: 58px;
+}
+
+.leis-padding-bottom-59 {
+    padding-bottom: 59px;
+}
+
+.leis-padding-bottom-60 {
+    padding-bottom: 60px;
+}
+
+.leis-padding-bottom-61 {
+    padding-bottom: 61px;
+}
+
+.leis-padding-bottom-62 {
+    padding-bottom: 62px;
+}
+
+.leis-padding-bottom-63 {
+    padding-bottom: 63px;
+}
+
+.leis-padding-bottom-64 {
+    padding-bottom: 64px;
+}
+
+.leis-padding-bottom-65 {
+    padding-bottom: 65px;
+}
+
+.leis-padding-bottom-66 {
+    padding-bottom: 66px;
+}
+
+.leis-padding-bottom-67 {
+    padding-bottom: 67px;
+}
+
+.leis-padding-bottom-68 {
+    padding-bottom: 68px;
+}
+
+.leis-padding-bottom-69 {
+    padding-bottom: 69px;
+}
+
+.leis-padding-bottom-70 {
+    padding-bottom: 70px;
+}
+
+.leis-padding-bottom-71 {
+    padding-bottom: 71px;
+}
+
+.leis-padding-bottom-72 {
+    padding-bottom: 72px;
+}
+
+.leis-padding-bottom-73 {
+    padding-bottom: 73px;
+}
+
+.leis-padding-bottom-74 {
+    padding-bottom: 74px;
+}
+
+.leis-padding-bottom-75 {
+    padding-bottom: 75px;
+}
+
+.leis-padding-bottom-76 {
+    padding-bottom: 76px;
+}
+
+.leis-padding-bottom-77 {
+    padding-bottom: 77px;
+}
+
+.leis-padding-bottom-78 {
+    padding-bottom: 78px;
+}
+
+.leis-padding-bottom-79 {
+    padding-bottom: 79px;
+}
+
+.leis-padding-bottom-80 {
+    padding-bottom: 80px;
+}
+
+.leis-padding-bottom-81 {
+    padding-bottom: 81px;
+}
+
+.leis-padding-bottom-82 {
+    padding-bottom: 82px;
+}
+
+.leis-padding-bottom-83 {
+    padding-bottom: 83px;
+}
+
+.leis-padding-bottom-84 {
+    padding-bottom: 84px;
+}
+
+.leis-padding-bottom-85 {
+    padding-bottom: 85px;
+}
+
+.leis-padding-bottom-86 {
+    padding-bottom: 86px;
+}
+
+.leis-padding-bottom-87 {
+    padding-bottom: 87px;
+}
+
+.leis-padding-bottom-88 {
+    padding-bottom: 88px;
+}
+
+.leis-padding-bottom-89 {
+    padding-bottom: 89px;
+}
+
+.leis-padding-bottom-90 {
+    padding-bottom: 90px;
+}
+
+.leis-padding-bottom-91 {
+    padding-bottom: 91px;
+}
+
+.leis-padding-bottom-92 {
+    padding-bottom: 92px;
+}
+
+.leis-padding-bottom-93 {
+    padding-bottom: 93px;
+}
+
+.leis-padding-bottom-94 {
+    padding-bottom: 94px;
+}
+
+.leis-padding-bottom-95 {
+    padding-bottom: 95px;
+}
+
+.leis-padding-bottom-96 {
+    padding-bottom: 96px;
+}
+
+.leis-padding-bottom-97 {
+    padding-bottom: 97px;
+}
+
+.leis-padding-bottom-98 {
+    padding-bottom: 98px;
+}
+
+.leis-padding-bottom-99 {
+    padding-bottom: 99px;
+}
+
+.leis-padding-bottom-100 {
+    padding-bottom: 100px;
+}
+
+/* ------------- margin -------- */
+
+.leis-margin-1t {
+    margin: 1rem auto;
+}
+
+.leis-margin-left-1x {
+    margin-left: 1rem;
+}
+
+.leis-margin-left-2x {
+    margin-left: 2rem;
+}
+
+.leis-margin-right-1x {
+    margin-right: 1rem;
+}
+
+.leis-margin-right-2x {
+    margin-right: 2rem;
+}
+
+.leis-margin-top-1x {
+    margin-top: 1rem;
+}
+
+.leis-margin-top-2x {
+    margin-right: 2rem;
+}
+
+.leis-margin-top-0 {
+    margin-top: 0px;
+}
+
+.leis-margin-top-1 {
+    margin-top: 1px;
+}
+
+.leis-margin-top-2 {
+    margin-top: 2px;
+}
+
+.leis-margin-top-3 {
+    margin-top: 3px;
+}
+
+.leis-margin-top-4 {
+    margin-top: 4px;
+}
+
+.leis-margin-top-5 {
+    margin-top: 5px;
+}
+
+.leis-margin-top-6 {
+    margin-top: 6px;
+}
+
+.leis-margin-top-7 {
+    margin-top: 7px;
+}
+
+.leis-margin-top-8 {
+    margin-top: 8px;
+}
+
+.leis-margin-top-9 {
+    margin-top: 9px;
+}
+
+.leis-margin-top-10 {
+    margin-top: 10px;
+}
+
+.leis-margin-top-11 {
+    margin-top: 11px;
+}
+
+.leis-margin-top-12 {
+    margin-top: 12px;
+}
+
+.leis-margin-top-13 {
+    margin-top: 13px;
+}
+
+.leis-margin-top-14 {
+    margin-top: 14px;
+}
+
+.leis-margin-top-15 {
+    margin-top: 15px;
+}
+
+.leis-margin-top-16 {
+    margin-top: 16px;
+}
+
+.leis-margin-top-17 {
+    margin-top: 17px;
+}
+
+.leis-margin-top-18 {
+    margin-top: 18px;
+}
+
+.leis-margin-top-19 {
+    margin-top: 19px;
+}
+
+.leis-margin-bottom-1x {
+    margin-bottom: 1rem;
+}
+
+.leis-margin-bottom-2x {
+    margin-bottom: 2rem;
+}
+
+.leis-margin-bottom-0rem {
+    margin-bottom: 0rem;
+}
+
+.leis-margin-bottom-1rem {
+    margin-bottom: 1rem;
+}
+
+.leis-margin-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
+.leis-margin-bottom-3rem {
+    margin-bottom: 3rem;
+}
+
+.leis-margin-bottom-4rem {
+    margin-bottom: 4rem;
+}
+
+.leis-margin-bottom-5rem {
+    margin-bottom: 5rem;
+}
+
+.leis-margin-bottom-6rem {
+    margin-bottom: 6rem;
+}
+
+.leis-margin-bottom-7rem {
+    margin-bottom: 7rem;
+}
+
+.leis-margin-bottom-8rem {
+    margin-bottom: 8rem;
+}
+
+.leis-margin-bottom-9rem {
+    margin-bottom: 9rem;
+}
+
+.leis-margin-bottom-10rem {
+    margin-bottom: 10rem;
+}
+
+.leis-margin-bottom-11rem {
+    margin-bottom: 11rem;
+}
+
+.leis-margin-bottom-12rem {
+    margin-bottom: 12rem;
+}
+
+.leis-margin-bottom-13rem {
+    margin-bottom: 13rem;
+}
+
+.leis-margin-bottom-14rem {
+    margin-bottom: 14rem;
+}
+
+.leis-margin-bottom-15rem {
+    margin-bottom: 15rem;
+}
+
+.leis-margin-bottom-16rem {
+    margin-bottom: 16rem;
+}
+
+.leis-margin-bottom-17rem {
+    margin-bottom: 17rem;
+}
+
+.leis-margin-bottom-18rem {
+    margin-bottom: 18rem;
+}
+
+.leis-margin-bottom-19rem {
+    margin-bottom: 19rem;
+}
+
+.leis-margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+.leis-margin-bottom-1 {
+    margin-bottom: 1px;
+}
+
+.leis-margin-bottom-2 {
+    margin-bottom: 2px;
+}
+
+.leis-margin-bottom-3 {
+    margin-bottom: 3px;
+}
+
+.leis-margin-bottom-4 {
+    margin-bottom: 4px;
+}
+
+.leis-margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.leis-margin-bottom-6 {
+    margin-bottom: 6px;
+}
+
+.leis-margin-bottom-7 {
+    margin-bottom: 7px;
+}
+
+.leis-margin-bottom-8 {
+    margin-bottom: 8px;
+}
+
+.leis-margin-bottom-9 {
+    margin-bottom: 9px;
+}
+
+.leis-margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.leis-margin-bottom-11 {
+    margin-bottom: 11px;
+}
+
+.leis-margin-bottom-12 {
+    margin-bottom: 12px;
+}
+
+.leis-margin-bottom-13 {
+    margin-bottom: 13px;
+}
+
+.leis-margin-bottom-14 {
+    margin-bottom: 14px;
+}
+
+.leis-margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.leis-margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.leis-margin-bottom-17 {
+    margin-bottom: 17px;
+}
+
+.leis-margin-bottom-18 {
+    margin-bottom: 18px;
+}
+
+.leis-margin-bottom-19 {
+    margin-bottom: 19px;
+}
+
+/* -------------------------- btns ----------------------------------- */
+.leis-btn-close {
+    border: 2px solid #dddddd90;
+    outline: none;
+    background-color: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    border-radius: 8px;
+}
+
+.leis-btn,
+.leis-dropBtn {
+    outline: none;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    padding: 6px 16px;
+    appearance: none;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0 inset;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0 inset;
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-family: inherit;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: 0.5s ease-in-out;
+}
+
+.leis-dropBtn {
+    gap: 10px;
+}
+
+.leis-btn:focus {
+    box-shadow: 0 0 1px 4px #627e7564;
+}
+
+.leis-btn-primary,
+.leis-dropBtn-primary {
+    background-color: var(--leis-primary-cl);
+    color: #fff !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-primary-bd-cl);
+}
+
+.leis-btn-primary:hover,
+.leis-dropBtn-primary:hover {
+    background-color: var(--leis-primary-hover-cl);
+    color: #fff;
+
+}
+
+.leis-btn-primary:focus,
+.leis-dropBtn-primary:focus,
+.leis-btn-primary.focus,
+.leis-dropBtn-primary.focus {
+    -webkit-box-shadow: var(--leis-primary-focus-bx-sh);
+    -o-box-shadow: var(--leis-primary-focus-bx-sh);
+    box-shadow: var(--leis-primary-focus-bx-sh);
+}
+
+.leis-btn-primary:focus:hover {
+    border: 1px solid var(--leis-primary-bd-fc-cl);
+}
+
+.leis-btn-secondary,
+.leis-dropBtn-secondary {
+    background-color: var(--leis-secondary-cl);
+    color: #fff !important;
+    border-radius: 6px;
+    border: 0.5px solid var(--leis-secondary-bd-cl);
+}
+
+.leis-btn-secondary:hover,
+.leis-dropBtn-secondary:hover {
+    background-color: var(--leis-secondary-hover-cl);
+
+}
+
+.leis-btn-secondary:focus,
+.leis-btn-secondary.focus,
+.leis-dropBtn-secondary:focus,
+.leis-dropBtn-secondary.focus,
+.leis-btn-close:focus {
+    -webkit-box-shadow: var(--leis-secondary-focus-bx-sh);
+    -o-box-shadow: var(--leis-secondary-focus-bx-sh);
+    box-shadow: var(--leis-secondary-focus-bx-sh);
+    border: 1px solid var(--leis-secondary-bd-cl);
+    transition: .2s ease-in;
+}
+
+
+.leis-btn-secondary:focus:hover {
+    border: 1px solid var(--leis-secondary-bd-fc-cl);
+
+}
+
+.leis-btn-success,
+.leis-dropBtn-success {
+    background-color: var(--leis-success-cl);
+    color: #fff !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-success-bd-cl);
+}
+
+.leis-btn-success:hover,
+.leis-dropBtn-success:hover {
+    background-color: var(--leis-success-hover-cl);
+
+}
+
+.leis-btn-success:focus,
+.leis-btn-success.focus,
+.leis-dropBtn-success:focus,
+.leis-dropBtn-success.focus {
+    -webkit-box-shadow: var(--leis-success-focus-bx-sh);
+    -o-box-shadow: var(--leis-success-focus-bx-sh);
+    box-shadow: var(--leis-success-focus-bx-sh);
+}
+
+.leis-btn-success:focus:hover {
+    border: 1px solid var(--leis-custom-success-bd-cl);
+}
+
+.leis-btn-warning,
+.leis-dropBtn-warning {
+    background-color: var(--leis-warning-cl);
+    color: black !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-warning-bd-cl);
+}
+
+.leis-btn-warning:hover,
+.leis-dropBtn-warning:hover {
+    background-color: var(--leis-warning-hover-cl);
+    border-color: var(--leis-warning-bd-hv-cl)
+}
+
+.leis-btn-warning:focus,
+.leis-btn-warning.focus,
+.leis-dropBtn-warning:focus,
+.leis-dropBtn-warning.focus {
+    -webkit-box-shadow: var(--leis-warning-focus-bx-sh);
+    -o-box-shadow: var(--leis-warning-focus-bx-sh);
+    box-shadow: var(--leis-warning-focus-bx-sh);
+}
+
+.leis-btn-danger,
+.leis-dropBtn-danger {
+    background-color: var(--leis-danger-cl);
+    color: white !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-danger-bd-cl);
+}
+
+.leis-btn-danger:hover,
+.leis-dropBtn-danger:hover {
+    background-color: var(--leis-danger-hover-cl);
+    border-color: var(--leis-danger-bd-hv-cl)
+}
+
+.leis-btn-danger:focus,
+.leis-btn-danger.focus,
+.leis-dropBtn-danger:focus,
+.leis-dropBtn-danger.focus {
+    -webkit-box-shadow: var(--leis-danger-focus-bx-sh);
+    -o-box-shadow: var(--leis-danger-focus-bx-sh);
+    box-shadow: var(--leis-danger-focus-bx-sh);
+}
+
+.leis-btn-info,
+.leis-dropBtn-info {
+    background-color: var(--leis-info-cl);
+    color: black !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-info-bd-cl);
+}
+
+.leis-btn-info:hover,
+.leis-dropBtn-info:hover {
+    background-color: var(--leis-info-hover-cl);
+    border-color: var(--leis-info-bd-hv-cl)
+}
+
+.leis-btn-info:focus,
+.leis-btn-info.focus,
+.leis-dropBtn-info:focus,
+.leis-dropBtn-info.focus {
+    -webkit-box-shadow: var(--leis-info-focus-bx-sh);
+    -o-box-shadow: var(--leis-info-focus-bx-sh);
+    box-shadow: var(--leis-info-focus-bx-sh);
+}
+
+.leis-btn-light,
+.leis-dropBtn-light {
+    background-color: var(--leis-light-cl);
+    color: black !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-light-bd-cl);
+}
+
+.leis-btn-light:hover,
+.leis-dropBtn-light:hover {
+    background-color: var(--leis-light-hover-cl);
+    border-color: var(--leis-light-bd-hv-cl)
+}
+
+.leis-btn-light:focus,
+.leis-btn-light.focus,
+.leis-dropBtn-light:focus,
+.leis-dropBtn-light.focus {
+    -webkit-box-shadow: var(--leis-light-focus-bx-sh);
+    -o-box-shadow: var(--leis-light-focus-bx-sh);
+    box-shadow: var(--leis-light-focus-bx-sh);
+}
+
+.leis-btn-dark,
+.leis-dropBtn-dark {
+    background-color: var(--leis-dark-cl);
+    color: #ddd !important;
+    border-radius: 6px;
+    border-width: 0.5px;
+    border-color: var(--leis-dark-bd-cl);
+}
+
+.leis-btn-dark:hover,
+.leis-dropBtn-dark:hover {
+    background-color: var(--leis-dark-hover-cl);
+    border-color: var(--leis-dark-bd-hv-cl)
+}
+
+.leis-btn-dark:focus,
+.leis-btn-dark.focus,
+.leis-dropBtn-dark:focus {
+    -webkit-box-shadow: var(--leis-dark-focus-bx-sh);
+    -o-box-shadow: var(--leis-dark-focus-bx-sh);
+    box-shadow: var(--leis-dark-focus-bx-sh);
+}
+
+.leis-outline-btn-primary {
+    border-color: var(--leis-primary-cl);
+    background-color: transparent !important;
+    color: var(--leis-primary-cl) !important;
+    -webkit-box-shadow: var(--leis-primary-cl) 0 0 2px inset;
+    box-shadow: var(--leis-primary-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-primary:hover,
+.leis-outline-btn-primary.focus,
+.leis-outline-btn-primary:focus {
+    color: #fff !important;
+    background-color: var(--leis-primary-cl) !important;
+}
+
+.leis-outline-btn-secondary {
+    border-color: var(--leis-secondary-cl);
+    background-color: transparent !important;
+    color: var(--leis-secondary-cl) !important;
+    -webkit-box-shadow: var(--leis-secondary-cl) 0 0 3px inset;
+    box-shadow: var(--leis-secondary-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-secondary:hover,
+.leis-outline-btn-secondary.focus,
+.leis-outline-btn-secondary:focus {
+    color: #fff !important;
+    background-color: var(--leis-secondary-cl) !important;
+}
+
+.leis-outline-btn-dark {
+    border-color: var(--leis-dark-cl);
+    background-color: transparent !important;
+    color: #9c9999 !important;
+    -webkit-box-shadow: var(--leis-dark-cl) 0 0 3px inset;
+    box-shadow: var(--leis-dark-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-dark:hover,
+.leis-outline-btn-dark.focus,
+.leis-outline-btn-dark:focus {
+    color: #fff !important;
+    background-color: var(--leis-dark-cl) !important;
+}
+
+.leis-outline-btn-light {
+    border-color: var(--leis-light-cl);
+    background-color: transparent !important;
+    color: var(--leis-primary-bd-hv-cl) !important;
+    -webkit-box-shadow: #ccc 0 0 3px inset;
+    box-shadow: #ccc 0 0 2px inset;
+}
+
+.leis-outline-btn-light:hover,
+.leis-outline-btn-light.focus,
+.leis-outline-btn-light:focus {
+    color: var(--leis-primary-bd-hv-cl) !important;
+    background-color: var(--leis-light-cl) !important;
+}
+
+.leis-outline-btn-success {
+    border-color: var(--leis-success-cl);
+    background-color: transparent !important;
+    color: var(--leis-success-cl) !important;
+    -webkit-box-shadow: var(--leis-success-cl) 0 0 3px inset;
+    box-shadow: var(--leis-success-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-success:hover,
+.leis-outline-btn-success.focus,
+.leis-outline-btn-success:focus {
+    color: #fff !important;
+    background-color: var(--leis-success-cl) !important;
+}
+
+.leis-outline-btn-info {
+    border-color: var(--leis-info-cl);
+    background-color: transparent !important;
+    color: var(--leis-info-hover-cl) !important;
+    -webkit-box-shadow: var(--leis-info-cl) 0 0 3px inset;
+    box-shadow: var(--leis-info-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-info:hover,
+.leis-outline-btn-info.focus,
+.leis-outline-btn-info:focus {
+    color: black !important;
+    background-color: var(--leis-info-cl) !important;
+}
+
+.leis-outline-btn-warning {
+    border-color: var(--leis-warning-cl);
+    background-color: transparent !important;
+    color: var(--leis-warning-cl) !important;
+    -webkit-box-shadow: var(--leis-warning-cl) 0 0 3px inset;
+    box-shadow: var(--leis-warning-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-warning:hover,
+.leis-outline-btn-warning.focus,
+.leis-outline-btn-warning:focus {
+    color: black !important;
+    background-color: var(--leis-warning-cl) !important;
+}
+
+.leis-outline-btn-danger {
+    border-color: var(--leis-danger-cl);
+    background-color: transparent !important;
+    color: var(--leis-danger-cl) !important;
+    -webkit-box-shadow: var(--leis-danger-cl) 0 0 3px inset;
+    box-shadow: var(--leis-danger-cl) 0 0 2px inset;
+}
+
+.leis-outline-btn-danger:hover,
+.leis-outline-btn-danger.focus,
+.leis-outline-btn-danger:focus {
+    color: #fff !important;
+    background-color: var(--leis-danger-cl) !important;
+}
+
+.leis-btn.leis-btn-small,
+.leis-btn-primary.leis-btn-small,
+.leis-btn-secondary.leis-btn-small,
+.leis-btn-success.leis-btn-small,
+.leis-btn-info.leis-btn-small,
+.leis-btn-danger.leis-btn-small,
+.leis-btn-warning.leis-btn-small,
+.leis-btn-light.leis-btn-small,
+.leis-btn-dark.leis-btn-small {
+    padding: 2px 10px;
+    font-size: 1rem;
+}
+
+.leis-btn.leis-btn-large,
+.leis-btn-primary.leis-btn-large,
+.leis-btn-secondary.leis-btn-large,
+.leis-btn-success.leis-btn-large,
+.leis-btn-info.leis-btn-large,
+.leis-btn-danger.leis-btn-large,
+.leis-btn-warning.leis-btn-large,
+.leis-btn-light.leis-btn-large,
+.leis-btn-dark.leis-btn-large {
+    padding: 0.555rem 16px;
+    font-size: 1.22rem;
+    font-weight: inherit;
+    min-width: 140px;
+}
+
+.leis-btn-icon {
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+}
+
+.leis-btn-w-icon {
+    display: flex;
+    gap: 0.5rem;
+}
+
+/* lines */
+
+.leis-line-h {
+    height: 0.5px;
+    outline: none;
+    border: none;
+    background-color: var(--leis-line-separator-cl);
+}
+
+/* cards */
+
+.leis-card,
+.leis-card-sms,
+.leis-dropdown,
+.leis-dropdown-content,
+.leis-alert-card,
+.leis-slideshow-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: var(--leis-card-bd);
+    border-radius: 6px;
+    -webkit-box-shadow: var(--leis-card-bx-sh);
+    box-shadow: var(--leis-card-bx-sh);
+    margin-bottom: 0.5em;
+}
+
+
+.leis-card .leis-img-card {
+    max-height: calc(80vh - 7rem);
+}
+
+.leis-card.boxSh-off {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.leis-card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.leis-card-title {
+    margin-bottom: 0.75rem;
+    -webkit-white-space: nowrap;
+    -ms-white-space: nowrap;
+    white-space: nowrap;
+}
+
+.leis-card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0.5px;
+    font-weight: 100;
+    line-height: 1.2;
+    color: var(--leis-subtitle-cl);
+}
+
+.leis-card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.leis-card-text {
+    font-size: 15.5px;
+    font-family: 'Poppins-Regular' system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+        Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-white-space: nowrap;
+    word-wrap: break-word;
+
+}
+
+.leis-card-footer {
+    padding: 0.5rem 1.25rem;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+.leis-card-img {
+    width: 100%;
+    height: auto;
+    border-radius: calc(6px - 1px);
+}
+
+.leis-card-img-top {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: calc(6px - 1px);
+    border-top-right-radius: calc(6px - 1px);
+}
+
+.leis-card-img-bottom {
+    width: 100%;
+    border-bottom-right-radius: calc(0.25rem - 1px);
+    border-bottom-left-radius: calc(0.25rem - 1px);
+}
+
+.leis-card-sms {
+    padding: 4.5px;
+    -webkit-box-shadow: var(--leis-card-sms-bx-sh);
+    box-shadow: var(--leis-card-sms-bx-sh);
+    border: var(--leis-card-bd)
+}
+
+.leis-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.leis-cover-pic-card {
+    display: block;
+    overflow: hidden;
+    height: 200px;
+}
+
+.leis-cover-pic-card>.leis-img {
+    width: 100%;
+    filter: var(--leis-effect-img);
+}
+
+.leis-img-card {
+    position: relative;
+    min-width: 0;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    outline: none;
+}
+
+.leis-cover-pic-card+.leis-img-card {
+    position: relative;
+    width: 200px !important;
+    height: 200px !important;
+    overflow: hidden !important;
+    border-radius: 50% !important;
+    outline: 3.5px solid var(--leis-img-outline-cl);
+}
+
+.leis-img-card>.leis-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 200px !important;
+    filter: var(--leis-effect-img);
+}
+
+.leis-cover-pic-card+.leis-img-card {
+    position: absolute;
+    top: calc(200px - 7rem);
+    left: 5%;
+}
+
+/* .leis-img-card+.leis-card-title,
+.leis-img-card+.leis-card-body {
+    margin-top: 6.5rem;
+
+} */
+
+.leis-img-card+.leis-card-title,
+.leis-card-title+.leis-card-subtitle {
+    position: relative;
+    left: 5%;
+    width: 50%;
+}
+
+.leis-card-btn-cd {
+    width: 100%;
+}
+
+.leis-card-btn-cd>[class*="btn"] {
+    border: none;
+    outline: none;
+}
+
+.leis-card-btn-cd>.leis-btn-light {
+    background-color: var(--leis-light-hover-cl);
+}
+
+.leis-card-btn-cd>.leis-btn-light:hover {
+    color: var(--leis-primary-cl) !important;
+}
+
+.leis-card-body>.leis-card-btn-cd {
+    border: none;
+    outline: none;
+    padding-bottom: 6px;
+}
+
+.leis-card-btn-cd+[class="leis-line-h"] {
+    margin: 14px 0px;
+}
+
+/* calendar*/
+.leis-calendar-container {
+    position: relative;
+    width: 350px;
+    min-height: 350px;
+
+    padding: 0.5rem 0.5rem;
+    padding-top: 1rem;
+    margin: 0;
+    outline: none;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.leis-calendar {
+    position: relative;
+    left: -2px;
+    width: 100%;
+    padding: 0;
+
+}
+
+.leis-date {
+    text-align: center;
+    font-size: inherit;
+
+}
+
+.leis-date p {
+    width: 40px;
+    padding: 0.5rem 0;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.leis-date p.active {
+    background-color: #b9d6fcb2;
+}
+
+.leis-date p:hover {
+    background-color: #7f8d9e4d
+}
+
+.leis-date.active {
+    background-color: transparent;
+    color: inherit;
+}
+
+.leis-date.active.today p {
+    background-color: transparent;
+    color: inherit;
+    border: 2px solid rgba(255, 46, 46, 0.743);
+}
+
+.leis-calendar-day {
+    font-weight: 400;
+    text-align: left;
+}
+
+.leis-year-info {
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.leis-date.today p {
+    background-color: rgba(255, 46, 46, 0.743);
+    color: #fff;
+    border-radius: 6px;
+}
+
+.calendar-next,
+.calendar-prev {
+    position: absolute;
+    top: 5px;
+    z-index: 1;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background-color: inherit;
+    color: inherit;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+
+.calendar-next:hover,
+.calendar-prev:hover {
+    color: #0062cc;
+}
+
+.calendar-next {
+    right: 6px;
+}
+
+.calendar-prev {
+    left: 6px;
+}
+
+.leis-calendar-cover {
+    position: relative;
+    width: -moz-fit-content;
+    width: fit-content;
+    overflow: hidden;
+
+}
+
+/*
+custom calendar
+*/
+
+.custom-calendar-container {
+    position: relative;
+    width: 320px;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    -webkit-user-select: none;
+    user-select: none;
+
+    background-color: inherit;
+
+}
+
+.custom-calendar-card {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #fff;
+    padding: 1rem 0.5rem;
+}
+
+
+
+.custom-Date,
+.daysOff,
+.custom-header Div {
+    border: none;
+    outline: none;
+    width: 50px;
+    padding: 8px 5px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: inherit;
+}
+
+.custom-Date {
+    cursor: pointer;
+}
+
+.custom-Date.active-date {
+    background-color: #287be9;
+    color: #fff;
+}
+
+.custom-Date:hover {
+    background-color: #abc9f0a4;
+}
+
+.custom-Date,
+.daysOff {
+    background-color: #ffffffa8;
+}
+
+.daysOff {
+    pointer-events: none;
+    color: #a39999;
+    opacity: 0.5;
+}
+
+.custom-body {
+    padding: 0;
+    width: 100%;
+    gap: 3px;
+    overflow: hidden;
+}
+
+.custom-row,
+.custom-header {
+    padding: 0;
+    margin: 0;
+    gap: 3px;
+
+}
+
+.custom-header Div {
+    font-weight: 400;
+}
+
+.custom-yearinfo {
+    width: 100%;
+    gap: 0.5rem;
+    justify-content: center;
+    font-weight: 500;
+}
+
+/* inputs*/
+
+.leis-card-radioBtns-container,
+.leis-card-checkboxBtns-container,
+.leis-card-switchboxBtns-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+    gap: 0.255rem;
+}
+
+.leis-card-radioBtns-container *>label,
+.leis-card-checkboxBtns-container *>label,
+.leis-card-switchboxBtns-container *>label,
+.leis-textboxinput-container *>label {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.leis-radioBtns-card,
+.leis-checkboxBtns-card,
+.leis-switchboxBtns-card {
+    position: relative;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    text-overflow: ellipsis;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 0.255rem;
+}
+
+.leis-radioBtn,
+.leis-checkboxtBtn,
+.leis-switchboxtBtn {
+    appearance: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+
+
+.leis-radioBtn::after,
+.leis-checkboxtBtn,
+.leis-switchboxtBtn {
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: inherit;
+    border-radius: 50%;
+    border: 1px solid #aaa;
+
+}
+
+.leis-checkboxtBtn {
+    top: 5px;
+    border: 1px solid #aaa;
+    outline: none;
+    border-radius: 0.222em;
+}
+
+.leis-switchboxtBtn {
+    top: 7px;
+    height: 15px;
+    width: 30px;
+    outline: none;
+    border-radius: 7px;
+}
+
+.leis-switchboxtBtn::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 15%;
+    left: 8%;
+    border-radius: 50%;
+    background-color: #aaa;
+    transition: left .3s ease;
+}
+
+.leis-checkboxtBtn:checked,
+.leis-switchboxtBtn:checked {
+    outline: none;
+    background-color: #007bff;
+    filter: brightness(100%);
+}
+
+.leis-switchboxtBtn:checked::after {
+    left: 52%;
+    background-color: #fff;
+}
+
+.leis-checkboxtBtn:focus,
+.leis-switchboxtBtn:focus {
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.leis-checkboxtBtn:checked::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 8px;
+    height: 5px;
+    left: calc(50% - 5px);
+    top: 20%;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotateZ(-60deg);
+
+}
+
+.leis-radioBtn:checked::after {
+    border: 0.333em solid #007bff;
+    filter: brightness(100%);
+}
+
+.leis-radioBtn:focus::after {
+    outline: none;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25)
+}
+
+
+.leis-textboxinput-container {
+    width: 100%;
+    height: auto;
+    padding: none;
+    margin: 0;
+    margin-bottom: 0.2rem;
+    padding-top: 0.5rem;
+}
+
+.leis-textbox-card {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    flex-wrap: wrap-reverse;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.leis-textbox-card label {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+
+/* leis group button*/
+
+.leis-groupBtn-container {
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+}
+
+.leis-groupBtn-card,
+.leis-groupBtn-card.dark-group {
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #2b3a49dc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.255rem;
+    color: rgb(235, 225, 225);
+    border-radius: 6px;
+}
+
+.leis-groupBtn-item {
+    border-radius: none;
+    padding: 0 8px;
+    background-color: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    user-select: none;
+    transition: .3s ease;
+}
+
+.leis-groupBtn-item:hover,
+.leis-groupBtn-item.dark-group .leis-groupBtn-item:hover {
+    background-color: #6e6d6d;
+}
+
+.leis-groupBtn-item:focus,
+.leis-groupBtn-item.dark-group .leis-groupBtn-item:focus {
+    background-color: #fff;
+    background-color: #969292;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+.leis-groupBtn-card.light-group {
+    background-color: var(--leis-light-cl);
+    color: #000;
+    border: 1px solid #ddddddb5;
+}
+
+.leis-groupBtn-card.light-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #ddddddad;
+}
+
+.leis-groupBtn-card.light-group .leis-groupBtn-item:hover {
+    background-color: #e1dadaca;
+}
+
+.leis-groupBtn-card.light-group .leis-groupBtn-item:focus {
+    background-color: #e1dadab9;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+
+
+.leis-groupBtn-card.secondary-group {
+    background-color: var(--leis-secondary-hover-cl);
+    color: rgb(235, 225, 225);
+    border: 1px solid #ddddddb5;
+}
+
+.leis-groupBtn-card.secondary-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #bebcbcdf;
+}
+
+.leis-groupBtn-card.secondary-group .leis-groupBtn-item:hover {
+    background-color: rgb(183, 179, 179);
+    color: #fff;
+}
+
+.leis-groupBtn-card.secondary-group .leis-groupBtn-item:focus {
+    background-color: rgb(183, 179, 179);
+    color: #fff;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+
+
+.leis-groupBtn-card.primary-group {
+    background-color: var(--leis-primary-hover-cl);
+    color: rgb(235, 225, 225);
+    border: 1px solid #ddddddb5;
+}
+
+.leis-groupBtn-card.primary-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #bebcbcdf;
+}
+
+.leis-groupBtn-card.primary-group .leis-groupBtn-item:hover {
+    background-color: #4f8dd0;
+    color: #fff;
+}
+
+.leis-groupBtn-card.primary-group .leis-groupBtn-item:focus {
+    background-color: #4f8dd0;
+    color: #fff;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.136);
+}
+
+.leis-groupBtn-card.success-group {
+    background-color: var(--leis-success-hover-cl);
+    color: #fff;
+    border: 1px solid #70d988;
+}
+
+.leis-groupBtn-card.success-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #70d988;
+}
+
+.leis-groupBtn-card.success-group .leis-groupBtn-item:hover {
+    background-color: #8deba2c4;
+    color: #000;
+}
+
+.leis-groupBtn-card.success-group .leis-groupBtn-item:focus {
+    background-color: #8deba2c4;
+    color: #000;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+
+.leis-groupBtn-card.warning-group {
+    background-color: hsla(45, 95%, 66%, 0.939);
+    color: #000;
+    border: 1px solid hsla(45, 95%, 66%, 0.939);
+}
+
+.leis-groupBtn-card.warning-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid hsl(45, 64%, 82%);
+}
+
+.leis-groupBtn-card.warning-group .leis-groupBtn-item:hover {
+    background-color: hsla(45, 84%, 42%, 0.939);
+    color: #fff;
+}
+
+.leis-groupBtn-card.warning-group .leis-groupBtn-item:focus {
+    background-color: hsla(45, 84%, 42%, 0.939);
+    color: #fff;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+.leis-groupBtn-card.info-group {
+    background-color: #a6eaf5e9;
+    color: #000;
+    border: 1px solid #a6eaf5e9;
+}
+
+.leis-groupBtn-card.info-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #a6eaf5e9;
+}
+
+.leis-groupBtn-card.info-group .leis-groupBtn-item:hover {
+    background-color: #589faad1;
+    color: #fff;
+}
+
+.leis-groupBtn-card.info-group .leis-groupBtn-item:focus {
+    background-color: #589faad1;
+    color: #fff;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+
+.leis-groupBtn-card.danger-group {
+    background-color: #cf5662db;
+    color: #fff;
+    border: 1px solid #cf5662db;
+}
+
+.leis-groupBtn-card.danger-group .leis-groupBtn-item:not(:last-child) {
+    border-right: 1px solid #ddb2b6;
+}
+
+.leis-groupBtn-card.danger-group .leis-groupBtn-item:hover {
+    background-color: #a6464edb;
+    color: #fff;
+}
+
+.leis-groupBtn-card.danger-group .leis-groupBtn-item:focus {
+    background-color: #a6464edb;
+    color: #fff;
+    box-shadow: 0 0px 0px 2px rgba(0, 0, 0, 0.136);
+}
+
+/* Modal */
+
+.leis-modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 2%, 8%, 0.372);
+    overflow-x: hidden;
+    outline: 0;
+    z-index: 1000;
+}
+
+.leis-modal-dialog {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    padding: 0.5rem;
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    outline: none;
+    animation: modal .3s ease;
+    width: 500px;
+    min-height: 250px;
+    height: 250px;
+
+
+}
+
+.modal-transform {
+    transform: translate(-50%, -25%);
+}
+
+.leis-modal-content {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0;
+    position: relative;
+    background-color: inherit;
+
+}
+
+.leis-modal-container.show .leis-modal-dialog {
+    top: 25%;
+    transition: 1s ease;
+}
+
+.leis-modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--leis-line-separator-cl);
+}
+
+.leis-modal-header .leis-modal-title {
+    padding: 5px 10px;
+}
+
+.leis-modal-header .leis-btn-close {
+    border: none;
+    font-size: 2rem;
+    top: -0.5rem;
+    color: #999;
+}
+
+.leis-modal-header .leis-btn-close:hover {
+    color: #000;
+}
+
+.leis-modal-body {
+    position: relative;
+    margin-left: 7px;
+    width: 100%;
+    height: calc(100% - 6rem - 4px);
+    position: relative;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.leis-modal-footer {
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+
+.leis-modal-footer-card {
+    position: relative;
+
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.6rem 1rem;
+    border-top: 1px solid var(--leis-line-separator-cl);
+    gap: 0.5rem;
+
+
+}
+
+.leis-modal-dafault {
+    padding: 3% 8%;
+}
+
+.leis-modal-dafault .leis-tooltip.bottom {
+    top: 80%;
+    left: 10%;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0.1;
+        top: -320px;
+
+
+    }
+
+    top {
+        opacity: 1;
+        top: 25%;
+    }
+}
+
+@keyframes modal-zoom-in {
+    from {
+        opacity: 0.1;
+        transform: scale(2.5);
+    }
+
+    top {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes modal-zoom-out {
+    from {
+        opacity: 0.1;
+        transform: scale(0.2);
+
+    }
+
+    top {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* slider*/
+
+.leis-slider-container {
+    position: relative;
+    background-color: var(--leis-dark-cl);
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+}
+
+.leis-slider-content {
+    width: 100%;
+}
+
+.leis-slider-slider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+    height: inherit;
+    width: 8px;
+    cursor: w-resize;
+    transition: background-color 1s ease;
+}
+
+.leis-slider-slider:hover {
+    background-color: #0069d9;
+
+}
+
+/* alerts*/
+
+.leis-alert-card {
+    position: relative;
+    box-shadow: none;
+    padding-right: 25px;
+}
+
+.leis-alert-card a {
+    white-space: nowrap;
+}
+
+.leis-alert-card .leis-btn-close {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    font-size: 2.5rem;
+    background-color: transparent;
+    border: none !important;
+}
+
+.leis-alert-card.leis-alert-primary {
+    background-color: #9ec8ff64;
+    border: 1.5px solid #74b0ff;
+
+
+}
+
+.leis-alert-card.leis-alert-success {
+    background-color: #96fbae6a;
+    border: 1.5px solid #51ff7abf;
+}
+
+.leis-alert-card.leis-alert-danger {
+    background-color: #fa919b77;
+    border: 1.5px solid #ff485ab2;
+}
+
+.leis-alert-card.leis-alert-info {
+    background-color: #a6f1fcae;
+    border: 1.5px solid #51a6b3a7;
+}
+
+.leis-alert-card.leis-alert-warning {
+    background-color: #ffdd7781;
+    border: 1.5px solid #ffce3ad5;
+}
+
+.leis-alert-card.leis-alert-dark {
+    background-color: #3f41437e;
+    color: rgb(250, 245, 245);
+}
+
+.leis-alert-card.leis-alert-light {
+    background-color: #fefeffb1;
+}
+
+.leis-alert-card.leis-alert-secondary {
+    background-color: #a0a1a25c;
+}
+
+.leis-alert-card .leis-alert-text {
+    padding: 16px;
+
+}
+
+/* groups */
+
+.leis-list-group,
+.leis-group,
+.leis-accordion-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.leis-list-group {
+    list-style: none;
+}
+
+.leis-child-group {
+    padding: 2.5px 5px;
+    position: relative;
+
+}
+
+.leis-child-group:not(:last-child) {
+    border-bottom: 0.5px solid rgb(216, 212, 212);
+}
+
+.leis-group-head {
+    background-color: rgba(230, 227, 227, 0.744);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.leis-img-group-left {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.leis-img-group-left>.leis-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 40px !important;
+    border: none;
+    outline: none;
+    filter: var(--leis-effect-img);
+}
+
+.leis-img-group-left~.leis-group-txt {
+    padding: 12px 14px;
+    margin-left: 2.5rem;
+}
+
+/* border */
+
+.leis-boder-1-primary {
+    border: 1px solid var(--leis-primary-cl);
+}
+
+.leis-boder-2-primary {
+    border: 2.5px solid var(--leis-primary-cl);
+}
+
+.leis-border-raduis-5 {
+    border-radius: 5px;
+}
+
+.leis-border-raduis-4 {
+    border-radius: 4px;
+}
+
+.leis-border-raduis-8 {
+    border-radius: 8px;
+}
+
+.leis-border-raduis-16 {
+    border-radius: 16px;
+}
+
+.leis-border-raduis-50p {
+    border-radius: 50%;
+}
+
+.leis-border-top-danger {
+    border-top: 7px solid var(--leis-danger-cl)
+}
+
+.leis-border-top-warning {
+    border-top: 7px solid var(--leis-warning-cl)
+}
+
+.leis-border-top-dark {
+    border-top: 7px solid var(--leis-dark-cl)
+}
+
+.leis-border-top-light {
+    border-top: 7px solid var(--leis-light-cl)
+}
+
+.leis-border-top-info {
+    border-top: 7px solid var(--leis-info-cl)
+}
+
+.leis-border-top-success {
+    border-top: 7px solid var(--leis-success-cl)
+}
+
+.leis-border-top-primary {
+    border-top: 7px solid var(--leis-primary-cl)
+}
+
+.leis-border-top-secondary {
+    border-top: 7px solid var(--leis-secondary-cl)
+}
+
+.leis-border-left-danger {
+    border-left: 7px solid var(--leis-danger-cl)
+}
+
+.leis-border-left-warning {
+    border-left: 7px solid var(--leis-warning-cl)
+}
+
+.leis-border-left-dark {
+    border-left: 7px solid var(--leis-dark-cl)
+}
+
+.leis-border-left-light {
+    border-left: 7px solid var(--leis-light-cl)
+}
+
+.leis-border-left-info {
+    border-left: 7px solid var(--leis-info-cl)
+}
+
+.leis-border-left-success {
+    border-left: 7px solid var(--leis-success-cl)
+}
+
+.leis-border-left-primary {
+    border-left: 7px solid var(--leis-primary-cl)
+}
+
+.leis-border-left-secondary {
+    border-left: 7px solid var(--leis-secondary-cl)
+}
+
+.leis-border-right-danger {
+    border-right: 7px solid var(--leis-danger-cl)
+}
+
+.leis-border-right-warning {
+    border-right: 7px solid var(--leis-warning-cl)
+}
+
+.leis-border-right-dark {
+    border-right: 7px solid var(--leis-dark-cl)
+}
+
+.leis-border-right-light {
+    border-right: 7px solid var(--leis-light-cl)
+}
+
+.leis-border-right-info {
+    border-right: 7px solid var(--leis-info-cl)
+}
+
+.leis-border-right-success {
+    border-right: 7px solid var(--leis-success-cl)
+}
+
+.leis-border-right-primary {
+    border-right: 7px solid var(--leis-primary-cl)
+}
+
+.leis-border-right-secondary {
+    border-right: 7px solid var(--leis-secondary-cl)
+}
+
+.leis-border-bottom-danger {
+    border-bottom: 7px solid var(--leis-danger-cl)
+}
+
+.leis-border-bottom-warning {
+    border-bottom: 7px solid var(--leis-warning-cl)
+}
+
+.leis-border-bottom-dark {
+    border-bottom: 7px solid var(--leis-dark-cl)
+}
+
+.leis-border-bottom-light {
+    border-bottom: 7px solid var(--leis-light-cl)
+}
+
+.leis-border-bottom-info {
+    border-bottom: 7px solid var(--leis-info-cl)
+}
+
+.leis-border-bottom-success {
+    border-bottom: 7px solid var(--leis-success-cl)
+}
+
+.leis-border-bottom-primary {
+    border-bottom: 7px solid var(--leis-primary-cl)
+}
+
+.leis-border-bottom-secondary {
+    border-bottom: 7px solid var(--leis-secondary-cl)
+}
+
+/* ---------------------- outline -------------------------- */
+.leis-outline-danger {
+    border: 2.8px solid;
+    border-color: var(--leis-danger-cl)
+}
+
+.leis-outline-warning {
+    border: 2.8px solid;
+    border-color: var(--leis-warning-cl)
+}
+
+.leis-outline-dark {
+    border: 2.8px solid;
+    border-color: var(--leis-dark-cl)
+}
+
+.leis-outline-light {
+    border: 2.8px solid;
+    border-color: var(--leis-light-cl)
+}
+
+.leis-outline-info {
+    border: 2.8px solid;
+    border-color: var(--leis-info-cl)
+}
+
+.leis-outline-success {
+    border: 2.8px solid;
+    border-color: var(--leis-success-cl)
+}
+
+.leis-outline-primary {
+    border: 2.8px solid;
+    border-color: var(--leis-primary-cl)
+}
+
+.leis-outline-secondary {
+    border: 2.8px solid;
+    border-color: var(--leis-secondary-cl)
+}
+
+.leis-border-primary {
+    border: 1.5px solid var(--leis-primary-cl);
+
+}
+
+.leis-border-secondary {
+    border: 1.5px solid var(--leis-secondary-cl);
+
+}
+
+.leis-border-warning {
+    border: 1.5px solid var(--leis-warning-cl);
+
+}
+
+.leis-border-primary {
+    border: 1.5px solid var(--leis-primary-cl);
+
+}
+
+.leis-border-info {
+    border: 1.5px solid var(--leis-info-cl);
+
+}
+
+.leis-border-danger {
+    border: 1.5px solid var(--leis-danger-cl);
+
+}
+
+.leis-border-success {
+    border: 1.5px solid var(--leis-success-cl);
+
+}
+
+.leis-border-light {
+    border: 1.5px solid var(--leis-light-cl);
+
+}
+
+.leis-border-dark {
+    border: 1.5px solid var(--leis-dark-cl);
+
+}
+
+/* -------------------------- badge---------------------------- */
+.leis-bg-primary {
+    background-color: var(--leis-primary-cl);
+}
+
+.leis-bg-secondary {
+    background-color: var(--leis-secondary-cl);
+}
+
+.leis-bg-succes {
+    background-color: var(--leis-success-cl);
+}
+
+.leis-bg-danger {
+    background-color: var(--leis-danger-cl);
+}
+
+.leis-bg-warning {
+    background-color: var(--leis-warning-cl);
+}
+
+.leis-bg-info {
+    background-color: var(--leis-info-cl);
+}
+
+.leis-bg-light {
+    background-color: var(--leis-light-cl);
+}
+
+.leis-bg-dark {
+    background-color: var(--leis-dark-cl);
+}
+
+/* ---------------------------------- reset style-------------0000 */
+
+.leis-reset-margin {
+    margin: 0;
+}
+
+.leis-reset-padding {
+    padding: 0;
+}
+
+/* web elements */
+
+/* Collapsibles / Accordion */
+.leis-accordion-card {
+    outline: none;
+    border: none;
+    min-width: 0;
+    border-radius: 5px;
+    -webkit-box-shadow: var(--leis-accordion-bx-sh);
+    box-shadow: var(--leis-accordion-bx-sh);
+    background-color: var(--leis-default-cl);
+}
+
+
+.leis-accordion-btn {
+    position: relative;
+    cursor: pointer;
+    padding: 12px 14px;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s ease-in-out;
+}
+
+.leis-accordion-btn::after,
+.leis-btn-controler::before,
+.leis-arrow-down::after {
+    position: relative;
+    content: "";
+    width: 10px;
+    height: 10px;
+    float: right;
+    top: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1.8px solid;
+    border-left: 1.8px solid;
+    transform: rotateY(180deg) rotateZ(-40deg);
+    transition: .16s;
+}
+
+.leis-btn-controler {
+    color: #0069d9 !important;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    border: none;
+    z-index: 1;
+    background-color: inherit;
+}
+
+.leis-btn-controler.hide {
+    display: none;
+}
+
+.DA-close-modal {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.DA-close-modal:hover {
+    background-color: #d31b2d;
+}
+
+.leis-btn-controler::before {
+    position: relative;
+    top: -1px;
+    border-bottom: 2.8px solid;
+    border-left: 2.8px solid;
+    transform: rotateY(180deg) rotateZ(-140deg);
+}
+
+.leis-accordion-btn.active::after,
+.leis-dropBtn.activeD .leis-arrow-down::after {
+    transform: rotateY(180deg) rotateZ(138deg);
+}
+
+.leis-accordion-btn:hover,
+.leis-accordion-btn.active {
+    background-color: var(--leis-light-hover-cl);
+}
+
+.leis-accordion-btn.active {
+    font-size: 18px;
+}
+
+
+.leis-accordion-btn:not(:last-child) {
+    border-bottom: 1.2px solid var(--leis-line-separator-cl);
+}
+
+
+.leis-accordion-panel {
+    position: relative;
+    background-color: inherit;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+}
+
+.leis-accordion-txt {
+    padding: 5px 14px;
+}
+
+.leis-accordion-panel.active {
+    max-height: 100vh;
+    overflow: visible;
+    background-color: #fff;
+}
+
+.leis-accordion-head {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: block;
+    font-weight: 500;
+    background-color: var(--leis-accordion-head-cl);
+    padding: 12px 14px;
+    border-bottom: 1.5px solid var(--leis-line-separator-cl);
+    border-radius: 5px 5px 0px 0px;
+    color: var(--leis-accordion-head-txt-cl);
+}
+
+.leis-accordion-footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: block;
+    padding: 5px 6px;
+    font-weight: 500;
+    border-radius: 0px 0px 5px 5px;
+    color: #000;
+    text-align: center;
+    -webkit-box-shadow: var(--leis-accordion-footer-bx-sh);
+    box-shadow: var(--leis-accordion-footer-bx-sh);
+    background-color: var(--leis-accordion-footer-cl);
+}
+
+/* collapsible*/
+
+.leis-collapsing-container {
+    position: relative;
+    border: none;
+    margin: 0;
+
+}
+
+.leis-collapse-btn {
+    border: none;
+    font-weight: 500;
+    text-align: left;
+    padding: 0;
+}
+
+.leis-collapse-btn::before {
+    position: absolute;
+    left: -15px;
+    top: 8px;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    transform: rotateY(-180deg) rotateZ(40deg);
+    transition: .16s;
+}
+
+.leis-collapsing {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .45s ease
+}
+
+.leis-collapsing.callo-show {
+    max-height: 100%;
+
+}
+
+.leis-collapse-btn.colla-btn-show::before {
+    transform: rotateY(-180deg) rotateZ(-40deg);
+}
+
+
+
+
+/* table*/
+
+.leis-table-container {
+    position: relative;
+}
+
+.leis-table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+.leis-table-head {
+    text-align: left;
+    border: inherit;
+}
+
+.leis-table-head .leis-table-heading {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.leis-table-body {
+    border: inherit;
+
+}
+
+.leis-table-data,
+.leis-table-row {
+    border: inherit;
+}
+
+
+.leis-table-data,
+.leis-table-header {
+    padding: 5px 8px;
+}
+
+/*ToolTip*/
+.leis-tooltip {
+    visibility: hidden;
+    position: absolute;
+    border-radius: 8px;
+    opacity: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: -moz-fit-content;
+    width: fit-content;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    transition: opacity .3s ease;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.leis-tooltip::after {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: inherit;
+    top: 100%;
+    left: 50%;
+    margin-top: -5px;
+    border-left: inherit;
+    border-top: inherit;
+    transform: rotateY(180deg) rotateZ(-140deg);
+}
+
+.leis-tooltip.top {
+    bottom: calc(100% + 10px);
+    left: 50%;
+}
+
+.leis-tooltip.bottom {
+    top: calc(100% + 10px);
+    left: calc(100% - 60%);
+}
+
+.leis-tooltip.bottom::after {
+    top: -3px;
+    left: calc(100% - 60%);
+    width: 15px;
+    height: 15px;
+    transform: rotateY(180deg) rotateZ(40deg);
+}
+
+.leis-tooltip.right {
+    bottom: calc(50% - 10px);
+    left: calc(100% + 10px);
+    min-width: 140px;
+}
+
+.leis-tooltip.right::after {
+    top: 50%;
+    left: -8px;
+    width: 14px;
+    transform: rotateY(180deg) rotateZ(130deg);
+}
+
+.leis-tooltip.left {
+    bottom: calc(50% - 10px);
+    right: calc(100% + 10px);
+    min-width: 140px;
+}
+
+.leis-tooltip.left::after {
+    top: 50%;
+    left: 100%;
+    margin-left: -5px;
+    transform: rotateY(180deg) rotateZ(-50deg);
+}
+
+.leis-tooltip .leis-tooltip-content {
+    max-width: 350px;
+    max-height: 50vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.leis-tooltip * {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*search Bar*/
+
+.leis-searchBar,
+.leis-textinput {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 3px 12px;
+    border-radius: 6px;
+
+}
+
+.leis-searchBar:focus,
+.leis-textinput:focus {
+    -webkit-box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+    filter: brightness(100%);
+}
+
+/* tabs */
+.leis-tabs-card {
+    position: relative;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    display: flex;
+    padding: 5px 14px;
+    gap: 0.5em;
+    white-space: nowrap;
+    overflow-x: auto;
+    background-color: inherit;
+    font-size: inherit;
+}
+
+.leis-tabs-btn {
+    position: relative;
+    display: -moz-box;
+    display: -webkit-box;
+    display: block;
+    padding: 5px;
+    background-color: inherit;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    overflow: visible;
+    text-overflow: inherit;
+}
+
+
+.leis-tab-txt {
+    padding: 0.5rem;
+}
+
+.leis-tab-content {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: inherit;
+    animation: fade-content 1s ease-in-out;
+}
+
+.leis-tab-content.active {
+    display: block;
+    background-color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.leis-tabs-btn.active {
+    background-color: #ddd;
+}
+
+@keyframes fade-content {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*autocomplate*/
+
+.leis-autoComplate,
+.leis-textbox-container {
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: none;
+    margin: 0;
+}
+
+.leis-autoComplate .leis-group * {
+    border: none;
+    padding: 0;
+}
+
+.leis-autoComplate .leis-group .leis-child-group {
+    padding: 6px 10px;
+    cursor: pointer;
+    border: 1px solid #f6f3f3a3;
+    display: flex;
+    gap: 10px;
+}
+
+.aut-item-subTitle {
+    color: var(--leis-subtitle-cl);
+    font-size: calc(var(--leis-font-size) - 1px);
+}
+
+.leis-autoComplate .leis-group .leis-child-group:hover {
+    background-color: var(--leis-select-cl)
+}
+
+.leis-autoComplateCard {
+    visibility: hidden;
+}
+
+
+.leis-autoComplateCard.clicked:hover {
+    visibility: visible;
+}
+
+.leis-autoComplateCard.empty {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+.leis-searchBar:focus+.leis-autoComplateCard,
+.leis-autoInput:focus+.leis-autoComplateCard {
+    visibility: visible;
+}
+
+.leis-autComplate-container {
+    width: 100%;
+    position: absolute;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 6px;
+    z-index: 1000;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+
+/* TopNav */
+.leis-icon-menu {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 2.5px;
+    left: -0.5px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--leis-txt-cl);
+    transition: .5s ease-in;
+}
+
+.leis-icon-menu::after {
+    position: absolute;
+    top: -4px;
+    left: -0px;
+    margin-left: -0.5px;
+    display: inline-block;
+    content: "";
+    width: inherit;
+    height: inherit;
+    margin-bottom: 0.5px;
+    background-color: inherit;
+}
+
+.leis-icon-menu::before {
+    position: absolute;
+    display: inline-block;
+    top: -8px;
+    left: -0.5px;
+    content: "";
+    width: inherit;
+    height: inherit;
+    margin-bottom: 0.5px;
+    background-color: inherit;
+}
+
+.leis-icon-menu.clicked {
+    transform: rotateZ(-150deg);
+}
+
+.leis-icon-menu.clicked::after {
+    transform: rotateZ(90deg);
+    top: 0px;
+    left: 0.5px;
+}
+
+.leis-icon-menu.clicked::before {
+    transform: rotateZ(40deg);
+    background-color: transparent;
+}
+
+.leis-topnav {
+    position: relative;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #eee;
+    -webkit-box-shadow: var(--leis-nav-bx-sh);
+    box-shadow: var(--leis-nav-bx-sh);
+    margin: 0;
+}
+
+
+.leis-topnav.primary,
+.leis-topnav.primary .leis-dropBtn {
+    background-color: var(--leis-primary-hover-cl);
+    color: rgba(230, 227, 227, 0.991) !important;
+}
+
+
+
+.leis-topnav .leis-dropBtn,
+.leis-topnav .leis-dropBtn.activeD {
+    width: auto;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 18px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    padding-top: 4px;
+    font-weight: 300;
+}
+
+.leis-topnav .leis-dropdown-content.show {
+    z-index: 1000;
+    min-width: 200px;
+    color: #000 !important;
+}
+
+.leis-topnav .leis-dropBtn {
+    display: flex;
+    gap: 10px;
+}
+
+.leis-topnav .leis-dropBtn.activeD .leis-arrow-down::after {
+    left: 10px;
+}
+
+.leis-topnav .leis-dropBtn .leis-arrow-down::after {
+    height: 6px;
+    width: 6px;
+
+}
+
+.leis-topnav.primary .leis-child-group:hover,
+.leis-topnav.primary .leis-dropBtn:hover {
+    color: #fff !important
+}
+
+.leis-topnav.secondary,
+.leis-topnav.secondary .leis-dropBtn {
+    background-color: var(--leis-secondary-cl);
+    color: rgba(230, 227, 227, 0.991) !important;
+}
+
+.leis-topnav.secondary .leis-child-group:hover,
+.leis-topnav.secondary .leis-dropBtn {
+    color: #fff !important
+}
+
+.leis-topnav.warning,
+.leis-topnav.warning .leis-dropBtn {
+    background-color: var(--leis-warning-cl);
+    color: #221e1e !important
+}
+
+.leis-topnav.warning .leis-child-group:hover,
+.leis-topnav.warning .leis-dropBtn:hover {
+    color: #000 !important
+}
+
+.leis-topnav.dark,
+.leis-topnav.dark .leis-dropBtn {
+    background-color: var(--leis-dark-cl);
+    color: rgb(216, 212, 212) !important
+}
+
+.leis-topnav.dark .leis-child-group:hover,
+.leis-topnav.dark .leis-dropBtn:hover {
+    color: #fff !important
+}
+
+
+.leis-topnav.light,
+.leis-topnav.light .leis-dropBtn {
+    background-color: var(--leis-light-cl);
+    color: #3c3939 !important
+}
+
+.leis-topnav.light .leis-child-group:hover,
+.leis-topnav.light .leis-dropBtn:hover {
+    color: var(--leis-primary-cl) !important
+}
+
+
+.leis-topnav.success,
+.leis-topnav.success .leis-dropBtn {
+    background-color: var(--leis-success-cl);
+    color: rgb(216, 212, 212) !important
+}
+
+.leis-topnav.success .leis-child-group:hover,
+.leis-topnav.success .leis-dropBtn:hover {
+    color: #fff
+}
+
+.leis-topnav.danger,
+.leis-topnav.danger .leis-dropBtn {
+    background-color: var(--leis-danger-cl);
+    color: rgb(216, 212, 212) !important
+}
+
+.leis-topnav.danger .leis-child-group:hover,
+.leis-topnav.danger .leis-dropBtn:hover {
+    color: #fff
+}
+
+.leis-topnav.info,
+.leis-topnav.info .leis-dropBtn {
+    background-color: var(--leis-info-cl);
+    color: #333 !important
+}
+
+.leis-topnav.info .leis-child-group:hover,
+.leis-topnav.info .leis-dropBtn:hover {
+    color: #000 !important
+}
+
+.leis-topnav-cd-profil-right {
+    display: block;
+    float: right;
+}
+
+.leis-topnav .leis-list-group {
+    display: inline-block;
+    padding: 10px 16px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
+
+.leis-topnav .leis-list-group .leis-img-group-left {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 5 auto;
+}
+
+.leis-topnav .leis-group .leis-dropdown {
+    background-color: red;
+}
+
+
+
+.profil {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.leis-topnav .leis-list-group .leis-img-group-left img {
+    min-height: 30px;
+}
+
+.leis-topnav .leis-list-group .leis-child-group {
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 2.5px 2.5px 0 0;
+}
+
+.leis-topnav .leis-list-group .leis-child-group * {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+@media screen and (max-width:600px) {
+
+    .leis-topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .leis-topnav a.icon {
+        float: right;
+        display: block;
+
+    }
+
+    .leis-topnav.responsive a.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .leis-topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+/* SideNav */
+.leis-sideNav {
+    padding: 10px;
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: var(--leis-dark-cl);
+    overflow-x: hidden;
+    transition: 0.5s;
+    -webkit-box-shadow: var(--leis-sideNav-bx-sh);
+    box-shadow: var(--leis-sideNav-bx-sh);
+    border-right: 1.8px solid var(--leis-default-cl);
+}
+
+.leis-sideNav .leis-collapsing-container * {
+    color: inherit;
+}
+
+.leis-sideNav .leis-list-group * {
+    font-weight: 400;
+}
+
+.leis-sideNav .leis-collapsing-container .leis-collapse-btn {
+    padding-left: 20px;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.leis-sideNav .leis-collapsing-container .leis-collapse-btn::before {
+    left: 0;
+}
+
+.leis-sideNav .leis-collapsing-container .leis-collapse-btn.colla-btn-show {
+    font-weight: 400;
+    color: #dad6d6e8;
+}
+
+.leis-sideNav .leis-collapsing-container .leis-collapse-btn:hover {
+    color: #ede7e7;
+}
+
+.leis-sideNav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.leis-sideNav .leis-list-group.links {
+    max-height: 75vh;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.leis-sideNav .leis-list-group::-webkit-scrollbar {
+    height: 4px;
+    width: 8px;
+    cursor: default !important;
+
+}
+
+.leis-sideNav .leis-list-group::-webkit-scrollbar-thumb {
+    background-color: rgba(222, 217, 217, 0.541);
+}
+
+.leis-sideNav .leis-list-group .leis-child-group {
+    padding: 8.5px 6px;
+    font-size: 1.1rem;
+    font-family: inherit;
+    border-radius: 8px;
+    border: none;
+    color: rgb(216, 212, 212);
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: start;
+    gap: 13px;
+}
+
+.leis-sideNav .leis-list-group .leis-child-group.active {
+    background-color: inherit;
+
+}
+
+.leis-sideNav .leis-collapsing-container .leis-list-group .leis-child-group {
+    padding: 3px 1.5px;
+}
+
+.leis-sideNav .leis-collapsing-container .leis-list-group {
+    padding-left: 15px;
+}
+
+.leis-sideNav .sideNavHeader {
+    padding: 5px 5px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1.5px solid #6860609f;
+}
+
+.leis-sideNav .sideNavFooter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1.5px solid #6860609f;
+
+}
+
+
+
+.leis-sideNav .leis-list-group .leis-child-group:not(.colla-item):hover {
+    background-color: #98c3f16b;
+}
+
+.leis-sideNav .leis-list-group .leis-child-group.sideItemActive {
+    background-color: #0069d9;
+    color: #fff;
+}
+
+
+.leis-sideNav a:hover {
+    background-color: var(--leis-light-hover-cl);
+}
+
+.leis-sideNav .leis-close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    margin-left: 50px;
+}
+
+
+.leis-openSide,
+.leis-Closeside {
+    position: relative;
+    display: inline-block
+}
+
+@media screen and(max-height:450px) {
+    .leis-sideNav {
+        padding: 15px;
+    }
+
+    .leis-sideNav a {
+        font-size: 18px;
+    }
+}
+
+/* dropdown btn */
+
+
+.leis-dropdown,
+.leis-slideshow-container {
+    position: relative;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.leis-dropdown {
+    display: inline-block;
+}
+
+.leis-dropdown-content {
+    display: none;
+    position: absolute;
+    top: -8px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, .2) !important;
+    z-index: 1;
+    animation: fade .16s ease-in;
+}
+
+.leis-dropdwn-content-card {
+    position: relative;
+    max-height: 350px;
+    min-width: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.leis-content {
+    width: 100%;
+    position: relative;
+}
+
+.leis-content>.leis-dropdown-content {
+    width: 100%;
+}
+
+.leis-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+.leis-dropdwn-content-card>* {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/* Page */
+
+.leis-mainPage {
+    position: relative;
+    padding-top: 30px;
+    min-width: 100%;
+}
+
+.leis-page-content {
+    position: relative;
+    display: none;
+    animation: fr .4s ease-in-out
+}
+
+@keyframes fr {
+    from {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.leis-page-legende {
+    cursor: pointer;
+}
+
+/* slideshow/ carousel */
+
+.leis-slideshow-container {
+    padding: 0;
+    margin: 0;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.leis-slideshow-container .leis-img-card {
+    width: 100%;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: none;
+
+}
+
+.leis-slideshow-container .leis-img-card .leis-img {
+    width: 100%;
+    height: auto;
+    max-height: calc(100%);
+}
+
+.leis-slideshow-prev-btn,
+.leis-slideshow-next-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+    user-select: none;
+    z-index: 1;
+}
+
+.leis-slideshow-prev-btn {
+    left: 0;
+}
+
+.leis-slideshow-next-btn {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.leis-slideshow-next-btn:hover,
+.leis-slideshow-prev-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.leis-slideshow-txt {
+    color: #f2f2f2;
+    font-size: 18px;
+    position: absolute;
+    padding: 8px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.479);
+    z-index: 1;
+}
+
+.leis-slideshowNumTxt {
+    position: absolute;
+    color: #f2f2f2;
+    font-size: 17px;
+    padding: 8px 12px;
+    top: 0;
+}
+
+.leis-slideshow-dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease
+}
+
+.active,
+.leis-slideshow-dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.leis-firstSlideShow {
+    word-wrap: break-word;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* slideshow gallery */
+/* ---------------------- */
+
+/* modal image */
+
+@font-face {
+    font-family: "Open-Sans";
+    src: url("../font/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-Meduim';
+    src: url("../font/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic-VariableFont-wdthwght';
+    src: url('../font/OpenSans/OpenSans-Italic-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-VariableFont-wdthwght';
+    src: url('../font/OpenSans/OpenSans-VariableFont_wdth,wght.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../font/OpenSans/static/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: url('../font/OpenSans/static/OpenSans-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: url('../font/OpenSans/static/OpenSans-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: url('../font/OpenSans/static/OpenSans-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: url('../font/OpenSans/static/OpenSans-Light.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: url('../font/OpenSans/static/OpenSans-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Medium';
+    src: url('../font/OpenSans/static/OpenSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-MediumItalic';
+    src: url('../font/OpenSans/static/OpenSans-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../font/OpenSans/static/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBold';
+    src: url('../font/OpenSans/static/OpenSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-Bold';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-BoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-ExtraBold';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-ExtraBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-Italic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-Light';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-Light.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-LightItalic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-Medium';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-MediumItalic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-Regular';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-SemiBold';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Condensed-SemiBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_Condensed-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-Bold';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-BoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-ExtraBold';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-ExtraBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-Italic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-Light';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-Light.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-LightItalic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-Medium';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-MediumItalic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-Regular';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-SemiBold';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiCondensed-SemiBoldItalic';
+    src: url('../font/OpenSans/static/OpenSans_SemiCondensed-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../font/Poppins/Poppins-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-BlackItalic';
+    src: url('../font/Poppins/Poppins-BlackItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Bold';
+    src: url('../font/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-BoldItalic';
+    src: url('../font/Poppins/Poppins-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('../font/Poppins/Poppins-ExtraBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraBoldItalic';
+    src: url('../font/Poppins/Poppins-ExtraBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLight';
+    src: url('../font/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ExtraLightItalic';
+    src: url('../font/Poppins/Poppins-ExtraLightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Italic';
+    src: url('../font/Poppins/Poppins-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url('../font/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-LightItalic';
+    src: url('../font/Poppins/Poppins-LightItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../font/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-MediumItalic';
+    src: url('../font/Poppins/Poppins-MediumItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../font/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('../font/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBoldItalic';
+    src: url('../font/Poppins/Poppins-SemiBoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-Thin';
+    src: url('../font/Poppins/Poppins-Thin.ttf');
+}
+
+@font-face {
+    font-family: 'Poppins-ThinItalic';
+    src: url('../font/Poppins/Poppins-ThinItalic.ttf');
+}
+
+.leis-font-OpenSans-Italic-VariableFont-wdthwght {
+    font-family: 'OpenSans-Italic-VariableFont-wdthwght',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-VariableFont-wdthwght {
+    font-family: 'OpenSans-VariableFont-wdthwght',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Bold {
+    font-family: 'OpenSans-Bold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-BoldItalic {
+    font-family: 'OpenSans-BoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-ExtraBold {
+    font-family: 'OpenSans-ExtraBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-ExtraBoldItalic {
+    font-family: 'OpenSans-ExtraBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Italic {
+    font-family: 'OpenSans-Italic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Light {
+    font-family: 'OpenSans-Light',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-LightItalic {
+    font-family: 'OpenSans-LightItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Medium {
+    font-family: 'OpenSans-Medium',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-MediumItalic {
+    font-family: 'OpenSans-MediumItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Regular {
+    font-family: 'OpenSans-Regular',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiBold {
+    font-family: 'OpenSans-SemiBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiBoldItalic {
+    font-family: 'OpenSans-SemiBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-Bold {
+    font-family: 'OpenSans-Condensed-Bold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-BoldItalic {
+    font-family: 'OpenSans-Condensed-BoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-ExtraBold {
+    font-family: 'OpenSans-Condensed-ExtraBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-ExtraBoldItalic {
+    font-family: 'OpenSans-Condensed-ExtraBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-Italic {
+    font-family: 'OpenSans-Condensed-Italic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-Light {
+    font-family: 'OpenSans-Condensed-Light',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-LightItalic {
+    font-family: 'OpenSans-Condensed-LightItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-Medium {
+    font-family: 'OpenSans-Condensed-Medium',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-MediumItalic {
+    font-family: 'OpenSans-Condensed-MediumItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-Regular {
+    font-family: 'OpenSans-Condensed-Regular',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-SemiBold {
+    font-family: 'OpenSans-Condensed-SemiBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-Condensed-SemiBoldItalic {
+    font-family: 'OpenSans-Condensed-SemiBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-Bold {
+    font-family: 'OpenSans-SemiCondensed-Bold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-BoldItalic {
+    font-family: 'OpenSans-SemiCondensed-BoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-ExtraBold {
+    font-family: 'OpenSans-SemiCondensed-ExtraBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-ExtraBoldItalic {
+    font-family: 'OpenSans-SemiCondensed-ExtraBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-Italic {
+    font-family: 'OpenSans-SemiCondensed-Italic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-Light {
+    font-family: 'OpenSans-SemiCondensed-Light',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-LightItalic {
+    font-family: 'OpenSans-SemiCondensed-LightItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-Medium {
+    font-family: 'OpenSans-SemiCondensed-Medium',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-MediumItalic {
+    font-family: 'OpenSans-SemiCondensed-MediumItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-Regular {
+    font-family: 'OpenSans-SemiCondensed-Regular',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-SemiBold {
+    font-family: 'OpenSans-SemiCondensed-SemiBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-OpenSans-SemiCondensed-SemiBoldItalic {
+    font-family: 'OpenSans-SemiCondensed-SemiBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Black {
+    font-family: 'Poppins-Black',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-BlackItalic {
+    font-family: 'Poppins-BlackItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Bold {
+    font-family: 'Poppins-Bold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-BoldItalic {
+    font-family: 'Poppins-BoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-ExtraBold {
+    font-family: 'Poppins-ExtraBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-ExtraBoldItalic {
+    font-family: 'Poppins-ExtraBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-ExtraLight {
+    font-family: 'Poppins-ExtraLight',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-ExtraLightItalic {
+    font-family: 'Poppins-ExtraLightItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Italic {
+    font-family: 'Poppins-Italic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Light {
+    font-family: 'Poppins-Light',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-LightItalic {
+    font-family: 'Poppins-LightItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Medium {
+    font-family: 'Poppins-Medium',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-MediumItalic {
+    font-family: 'Poppins-MediumItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Regular {
+    font-family: 'Poppins-Regular',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-SemiBold {
+    font-family: 'Poppins-SemiBold',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-SemiBoldItalic {
+    font-family: 'Poppins-SemiBoldItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-Thin {
+    font-family: 'Poppins-Thin',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-Poppins-ThinItalic {
+    font-family: 'Poppins-ThinItalic',
+        system-ui, -apple-system,
+        BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+}
+
+.leis-font-100 {
+    font-weight: 100;
+}
+
+.leis-font-200 {
+    font-weight: 200;
+}
+
+.leis-font-300 {
+    font-weight: 300;
+}
+
+.leis-font-400 {
+    font-weight: 400;
+}
+
+.leis-font-500 {
+    font-weight: 500;
+}
+
+.leis-font-600 {
+    font-weight: 600;
+}
+
+.leis-font-700 {
+    font-weight: 700;
+}
+
+.leis-font-800 {
+    font-weight: 800;
+}
+
+.leis-font-900 {
+    font-weight: 900;
+}
+
+.leis-font-size-1 {
+    font-size: 1px;
+}
+
+.leis-font-size-2 {
+    font-size: 2px;
+}
+
+.leis-font-size-3 {
+    font-size: 3px;
+}
+
+.leis-font-size-4 {
+    font-size: 4px;
+}
+
+.leis-font-size-5 {
+    font-size: 5px;
+}
+
+.leis-font-size-6 {
+    font-size: 6px;
+}
+
+.leis-font-size-7 {
+    font-size: 7px;
+}
+
+.leis-font-size-8 {
+    font-size: 8px;
+}
+
+.leis-font-size-9 {
+    font-size: 9px;
+}
+
+.leis-font-size-10 {
+    font-size: 10px;
+}
+
+.leis-font-size-11 {
+    font-size: 11px;
+}
+
+.leis-font-size-12 {
+    font-size: 12px;
+}
+
+.leis-font-size-13 {
+    font-size: 13px;
+}
+
+.leis-font-size-14 {
+    font-size: 14px;
+}
+
+.leis-font-size-15 {
+    font-size: 15px;
+}
+
+.leis-font-size-16 {
+    font-size: 16px;
+}
+
+.leis-font-size-17 {
+    font-size: 17px;
+}
+
+.leis-font-size-18 {
+    font-size: 18px;
+}
+
+.leis-font-size-19 {
+    font-size: 19px;
+}
+
+.leis-font-size-20 {
+    font-size: 20px;
+}
+
+.leis-font-size-21 {
+    font-size: 21px;
+}
+
+.leis-font-size-22 {
+    font-size: 22px;
+}
+
+.leis-font-size-23 {
+    font-size: 23px;
+}
+
+.leis-font-size-24 {
+    font-size: 24px;
+}
+
+.leis-font-size-25 {
+    font-size: 25px;
+}
+
+.leis-font-size-26 {
+    font-size: 26px;
+}
+
+.leis-font-size-27 {
+    font-size: 27px;
+}
+
+.leis-font-size-28 {
+    font-size: 28px;
+}
+
+.leis-font-size-29 {
+    font-size: 29px;
+}
+
+.leis-font-size-30 {
+    font-size: 30px;
+}
+
+.leis-font-size-31 {
+    font-size: 31px;
+}
+
+.leis-font-size-32 {
+    font-size: 32px;
+}
+
+.leis-font-size-33 {
+    font-size: 33px;
+}
+
+.leis-font-size-34 {
+    font-size: 34px;
+}
+
+.leis-font-size-35 {
+    font-size: 35px;
+}
+
+.leis-font-size-36 {
+    font-size: 36px;
+}
+
+.leis-font-size-37 {
+    font-size: 37px;
+}
+
+.leis-font-size-38 {
+    font-size: 38px;
+}
+
+.leis-font-size-39 {
+    font-size: 39px;
+}
+
+.leis-font-size-40 {
+    font-size: 40px;
+}
+
+.leis-font-size-41 {
+    font-size: 41px;
+}
+
+.leis-font-size-42 {
+    font-size: 42px;
+}
+
+.leis-font-size-43 {
+    font-size: 43px;
+}
+
+.leis-font-size-44 {
+    font-size: 44px;
+}
+
+.leis-font-size-45 {
+    font-size: 45px;
+}
+
+.leis-font-size-46 {
+    font-size: 46px;
+}
+
+.leis-font-size-47 {
+    font-size: 47px;
+}
+
+.leis-font-size-48 {
+    font-size: 48px;
+}
+
+.leis-font-size-49 {
+    font-size: 49px;
+}
+
+.leis-font-size-50 {
+    font-size: 50px;
+}
+
+.leis-font-size-51 {
+    font-size: 51px;
+}
+
+.leis-font-size-52 {
+    font-size: 52px;
+}
+
+.leis-font-size-53 {
+    font-size: 53px;
+}
+
+.leis-font-size-54 {
+    font-size: 54px;
+}
+
+.leis-font-size-55 {
+    font-size: 55px;
+}
+
+.leis-font-size-56 {
+    font-size: 56px;
+}
+
+.leis-font-size-57 {
+    font-size: 57px;
+}
+
+.leis-font-size-58 {
+    font-size: 58px;
+}
+
+.leis-font-size-59 {
+    font-size: 59px;
+}
+
+.leis-font-size-60 {
+    font-size: 60px;
+}
+
+.leis-font-size-61 {
+    font-size: 61px;
+}
+
+.leis-font-size-62 {
+    font-size: 62px;
+}
+
+.leis-font-size-63 {
+    font-size: 63px;
+}
+
+.leis-font-size-64 {
+    font-size: 64px;
+}
+
+.leis-font-size-65 {
+    font-size: 65px;
+}
+
+.leis-font-size-66 {
+    font-size: 66px;
+}
+
+.leis-font-size-67 {
+    font-size: 67px;
+}
+
+.leis-font-size-68 {
+    font-size: 68px;
+}
+
+.leis-font-size-69 {
+    font-size: 69px;
+}
+
+.leis-font-size-70 {
+    font-size: 70px;
+}
+
+.leis-font-size-71 {
+    font-size: 71px;
+}
+
+.leis-font-size-72 {
+    font-size: 72px;
+}
+
+.leis-font-size-73 {
+    font-size: 73px;
+}
+
+.leis-font-size-74 {
+    font-size: 74px;
+}
+
+.leis-font-size-75 {
+    font-size: 75px;
+}
+
+.leis-font-size-76 {
+    font-size: 76px;
+}
+
+.leis-font-size-77 {
+    font-size: 77px;
+}
+
+.leis-font-size-78 {
+    font-size: 78px;
+}
+
+.leis-font-size-79 {
+    font-size: 79px;
+}
+
+.leis-font-size-80 {
+    font-size: 80px;
+}
+
+.leis-font-size-81 {
+    font-size: 81px;
+}
+
+.leis-font-size-82 {
+    font-size: 82px;
+}
+
+.leis-font-size-83 {
+    font-size: 83px;
+}
+
+.leis-font-size-84 {
+    font-size: 84px;
+}
+
+.leis-font-size-85 {
+    font-size: 85px;
+}
+
+.leis-font-size-86 {
+    font-size: 86px;
+}
+
+.leis-font-size-87 {
+    font-size: 87px;
+}
+
+.leis-font-size-88 {
+    font-size: 88px;
+}
+
+.leis-font-size-89 {
+    font-size: 89px;
+}
+
+.leis-font-size-90 {
+    font-size: 90px;
+}
+
+.leis-font-size-91 {
+    font-size: 91px;
+}
+
+.leis-font-size-92 {
+    font-size: 92px;
+}
+
+.leis-font-size-93 {
+    font-size: 93px;
+}
+
+.leis-font-size-94 {
+    font-size: 94px;
+}
+
+.leis-font-size-95 {
+    font-size: 95px;
+}
+
+.leis-font-size-96 {
+    font-size: 96px;
+}
+
+.leis-font-size-97 {
+    font-size: 97px;
+}
+
+.leis-font-size-98 {
+    font-size: 98px;
+}
+
+.leis-font-size-99 {
+    font-size: 99px;
+}
+
+.leis-font-size-1vw {
+    font-size: 1vw;
+}
+
+.leis-font-size-2vw {
+    font-size: 2vw;
+}
+
+.leis-font-size-3vw {
+    font-size: 3vw;
+}
+
+.leis-font-size-4vw {
+    font-size: 4vw;
+}
+
+.leis-font-size-5vw {
+    font-size: 5vw;
+}
+
+.leis-font-size-6vw {
+    font-size: 6vw;
+}
+
+.leis-font-size-7vw {
+    font-size: 7vw;
+}
+
+.leis-font-size-8vw {
+    font-size: 8vw;
+}
+
+.leis-font-size-9vw {
+    font-size: 9vw;
+}
+
+.leis-font-size-10vw {
+    font-size: 10vw;
+}
+
+.leis-font-size-11vw {
+    font-size: 11vw;
+}
+
+.leis-font-size-12vw {
+    font-size: 12vw;
+}
+
+.leis-font-size-13vw {
+    font-size: 13vw;
+}
+
+.leis-font-size-14vw {
+    font-size: 14vw;
+}
+
+.leis-font-size-15vw {
+    font-size: 15vw;
+}
+
+.leis-font-size-16vw {
+    font-size: 16vw;
+}
+
+.leis-font-size-17vw {
+    font-size: 17vw;
+}
+
+.leis-font-size-18vw {
+    font-size: 18vw;
+}
+
+.leis-font-size-19vw {
+    font-size: 19vw;
+}
+
+.leis-font-size-20vw {
+    font-size: 20vw;
+}
+
+.leis-font-size-21vw {
+    font-size: 21vw;
+}
+
+.leis-font-size-22vw {
+    font-size: 22vw;
+}
+
+.leis-font-size-23vw {
+    font-size: 23vw;
+}
+
+.leis-font-size-24vw {
+    font-size: 24vw;
+}
+
+.leis-font-size-25vw {
+    font-size: 25vw;
+}
+
+.leis-font-size-26vw {
+    font-size: 26vw;
+}
+
+.leis-font-size-27vw {
+    font-size: 27vw;
+}
+
+.leis-font-size-28vw {
+    font-size: 28vw;
+}
+
+.leis-font-size-29vw {
+    font-size: 29vw;
+}
+
+.leis-font-size-30vw {
+    font-size: 30vw;
+}
+
+.leis-font-size-31vw {
+    font-size: 31vw;
+}
+
+.leis-font-size-32vw {
+    font-size: 32vw;
+}
+
+.leis-font-size-33vw {
+    font-size: 33vw;
+}
+
+.leis-font-size-34vw {
+    font-size: 34vw;
+}
+
+.leis-font-size-35vw {
+    font-size: 35vw;
+}
+
+.leis-font-size-36vw {
+    font-size: 36vw;
+}
+
+.leis-font-size-37vw {
+    font-size: 37vw;
+}
+
+.leis-font-size-38vw {
+    font-size: 38vw;
+}
+
+.leis-font-size-39vw {
+    font-size: 39vw;
+}
+
+.leis-font-size-40vw {
+    font-size: 40vw;
+}
+
+.leis-font-size-41vw {
+    font-size: 41vw;
+}
+
+.leis-font-size-42vw {
+    font-size: 42vw;
+}
+
+.leis-font-size-43vw {
+    font-size: 43vw;
+}
+
+.leis-font-size-44vw {
+    font-size: 44vw;
+}
+
+.leis-font-size-45vw {
+    font-size: 45vw;
+}
+
+.leis-font-size-46vw {
+    font-size: 46vw;
+}
+
+.leis-font-size-47vw {
+    font-size: 47vw;
+}
+
+.leis-font-size-48vw {
+    font-size: 48vw;
+}
+
+.leis-font-size-49vw {
+    font-size: 49vw;
+}
+
+.leis-font-size-50vw {
+    font-size: 50vw;
+}
+
+.leis-font-size-51vw {
+    font-size: 51vw;
+}
+
+.leis-font-size-52vw {
+    font-size: 52vw;
+}
+
+.leis-font-size-53vw {
+    font-size: 53vw;
+}
+
+.leis-font-size-54vw {
+    font-size: 54vw;
+}
+
+.leis-font-size-55vw {
+    font-size: 55vw;
+}
+
+.leis-font-size-56vw {
+    font-size: 56vw;
+}
+
+.leis-font-size-57vw {
+    font-size: 57vw;
+}
+
+.leis-font-size-58vw {
+    font-size: 58vw;
+}
+
+.leis-font-size-59vw {
+    font-size: 59vw;
+}
+
+.leis-font-size-60vw {
+    font-size: 60vw;
+}
+
+.leis-font-size-61vw {
+    font-size: 61vw;
+}
+
+.leis-font-size-62vw {
+    font-size: 62vw;
+}
+
+.leis-font-size-63vw {
+    font-size: 63vw;
+}
+
+.leis-font-size-64vw {
+    font-size: 64vw;
+}
+
+.leis-font-size-65vw {
+    font-size: 65vw;
+}
+
+.leis-font-size-66vw {
+    font-size: 66vw;
+}
+
+.leis-font-size-67vw {
+    font-size: 67vw;
+}
+
+.leis-font-size-68vw {
+    font-size: 68vw;
+}
+
+.leis-font-size-69vw {
+    font-size: 69vw;
+}
+
+.leis-font-size-70vw {
+    font-size: 70vw;
+}
+
+.leis-font-size-71vw {
+    font-size: 71vw;
+}
+
+.leis-font-size-72vw {
+    font-size: 72vw;
+}
+
+.leis-font-size-73vw {
+    font-size: 73vw;
+}
+
+.leis-font-size-74vw {
+    font-size: 74vw;
+}
+
+.leis-font-size-75vw {
+    font-size: 75vw;
+}
+
+.leis-font-size-76vw {
+    font-size: 76vw;
+}
+
+.leis-font-size-77vw {
+    font-size: 77vw;
+}
+
+.leis-font-size-78vw {
+    font-size: 78vw;
+}
+
+.leis-font-size-79vw {
+    font-size: 79vw;
+}
+
+.leis-font-size-80vw {
+    font-size: 80vw;
+}
+
+.leis-font-size-81vw {
+    font-size: 81vw;
+}
+
+.leis-font-size-82vw {
+    font-size: 82vw;
+}
+
+.leis-font-size-83vw {
+    font-size: 83vw;
+}
+
+.leis-font-size-84vw {
+    font-size: 84vw;
+}
+
+.leis-font-size-85vw {
+    font-size: 85vw;
+}
+
+.leis-font-size-86vw {
+    font-size: 86vw;
+}
+
+.leis-font-size-87vw {
+    font-size: 87vw;
+}
+
+.leis-font-size-88vw {
+    font-size: 88vw;
+}
+
+.leis-font-size-89vw {
+    font-size: 89vw;
+}
+
+.leis-font-size-90vw {
+    font-size: 90vw;
+}
+
+.leis-font-size-91vw {
+    font-size: 91vw;
+}
+
+.leis-font-size-92vw {
+    font-size: 92vw;
+}
+
+.leis-font-size-93vw {
+    font-size: 93vw;
+}
+
+.leis-font-size-94vw {
+    font-size: 94vw;
+}
+
+.leis-font-size-95vw {
+    font-size: 95vw;
+}
+
+.leis-font-size-96vw {
+    font-size: 96vw;
+}
+
+.leis-font-size-97vw {
+    font-size: 97vw;
+}
+
+.leis-font-size-98vw {
+    font-size: 98vw;
+}
+
+.leis-font-size-99vw {
+    font-size: 99vw;
+}
+
+/* width */
+.leis-width-1pct {
+    width: 1%;
+}
+
+.leis-width-2pct {
+    width: 2%;
+}
+
+.leis-width-3pct {
+    width: 3%;
+}
+
+.leis-width-4pct {
+    width: 4%;
+}
+
+.leis-width-5pct {
+    width: 5%;
+}
+
+.leis-width-6pct {
+    width: 6%;
+}
+
+.leis-width-7pct {
+    width: 7%;
+}
+
+.leis-width-8pct {
+    width: 8%;
+}
+
+.leis-width-9pct {
+    width: 9%;
+}
+
+.leis-width-10pct {
+    width: 10%;
+}
+
+.leis-width-11pct {
+    width: 11%;
+}
+
+.leis-width-12pct {
+    width: 12%;
+}
+
+.leis-width-13pct {
+    width: 13%;
+}
+
+.leis-width-14pct {
+    width: 14%;
+}
+
+.leis-width-15pct {
+    width: 15%;
+}
+
+.leis-width-16pct {
+    width: 16%;
+}
+
+.leis-width-17pct {
+    width: 17%;
+}
+
+.leis-width-18pct {
+    width: 18%;
+}
+
+.leis-width-19pct {
+    width: 19%;
+}
+
+.leis-width-20pct {
+    width: 20%;
+}
+
+.leis-width-21pct {
+    width: 21%;
+}
+
+.leis-width-22pct {
+    width: 22%;
+}
+
+.leis-width-23pct {
+    width: 23%;
+}
+
+.leis-width-24pct {
+    width: 24%;
+}
+
+.leis-width-25pct {
+    width: 25%;
+}
+
+.leis-width-26pct {
+    width: 26%;
+}
+
+.leis-width-27pct {
+    width: 27%;
+}
+
+.leis-width-28pct {
+    width: 28%;
+}
+
+.leis-width-29pct {
+    width: 29%;
+}
+
+.leis-width-30pct {
+    width: 30%;
+}
+
+.leis-width-31pct {
+    width: 31%;
+}
+
+.leis-width-32pct {
+    width: 32%;
+}
+
+.leis-width-33pct {
+    width: 33%;
+}
+
+.leis-width-34pct {
+    width: 34%;
+}
+
+.leis-width-35pct {
+    width: 35%;
+}
+
+.leis-width-36pct {
+    width: 36%;
+}
+
+.leis-width-37pct {
+    width: 37%;
+}
+
+.leis-width-38pct {
+    width: 38%;
+}
+
+.leis-width-39pct {
+    width: 39%;
+}
+
+.leis-width-40pct {
+    width: 40%;
+}
+
+.leis-width-41pct {
+    width: 41%;
+}
+
+.leis-width-42pct {
+    width: 42%;
+}
+
+.leis-width-43pct {
+    width: 43%;
+}
+
+.leis-width-44pct {
+    width: 44%;
+}
+
+.leis-width-45pct {
+    width: 45%;
+}
+
+.leis-width-46pct {
+    width: 46%;
+}
+
+.leis-width-47pct {
+    width: 47%;
+}
+
+.leis-width-48pct {
+    width: 48%;
+}
+
+.leis-width-49pct {
+    width: 49%;
+}
+
+.leis-width-50pct {
+    width: 50%;
+}
+
+.leis-width-51pct {
+    width: 51%;
+}
+
+.leis-width-52pct {
+    width: 52%;
+}
+
+.leis-width-53pct {
+    width: 53%;
+}
+
+.leis-width-54pct {
+    width: 54%;
+}
+
+.leis-width-55pct {
+    width: 55%;
+}
+
+.leis-width-56pct {
+    width: 56%;
+}
+
+.leis-width-57pct {
+    width: 57%;
+}
+
+.leis-width-58pct {
+    width: 58%;
+}
+
+.leis-width-59pct {
+    width: 59%;
+}
+
+.leis-width-60pct {
+    width: 60%;
+}
+
+.leis-width-61pct {
+    width: 61%;
+}
+
+.leis-width-62pct {
+    width: 62%;
+}
+
+.leis-width-63pct {
+    width: 63%;
+}
+
+.leis-width-64pct {
+    width: 64%;
+}
+
+.leis-width-65pct {
+    width: 65%;
+}
+
+.leis-width-66pct {
+    width: 66%;
+}
+
+.leis-width-67pct {
+    width: 67%;
+}
+
+.leis-width-68pct {
+    width: 68%;
+}
+
+.leis-width-69pct {
+    width: 69%;
+}
+
+.leis-width-70pct {
+    width: 70%;
+}
+
+.leis-width-71pct {
+    width: 71%;
+}
+
+.leis-width-72pct {
+    width: 72%;
+}
+
+.leis-width-73pct {
+    width: 73%;
+}
+
+.leis-width-74pct {
+    width: 74%;
+}
+
+.leis-width-75pct {
+    width: 75%;
+}
+
+.leis-width-76pct {
+    width: 76%;
+}
+
+.leis-width-77pct {
+    width: 77%;
+}
+
+.leis-width-78pct {
+    width: 78%;
+}
+
+.leis-width-79pct {
+    width: 79%;
+}
+
+.leis-width-80pct {
+    width: 80%;
+}
+
+.leis-width-81pct {
+    width: 81%;
+}
+
+.leis-width-82pct {
+    width: 82%;
+}
+
+.leis-width-83pct {
+    width: 83%;
+}
+
+.leis-width-84pct {
+    width: 84%;
+}
+
+.leis-width-85pct {
+    width: 85%;
+}
+
+.leis-width-86pct {
+    width: 86%;
+}
+
+.leis-width-87pct {
+    width: 87%;
+}
+
+.leis-width-88pct {
+    width: 88%;
+}
+
+.leis-width-89pct {
+    width: 89%;
+}
+
+.leis-width-90pct {
+    width: 90%;
+}
+
+.leis-width-91pct {
+    width: 91%;
+}
+
+.leis-width-92pct {
+    width: 92%;
+}
+
+.leis-width-93pct {
+    width: 93%;
+}
+
+.leis-width-94pct {
+    width: 94%;
+}
+
+.leis-width-95pct {
+    width: 95%;
+}
+
+.leis-width-96pct {
+    width: 96%;
+}
+
+.leis-width-97pct {
+    width: 97%;
+}
+
+.leis-width-98pct {
+    width: 98%;
+}
+
+.leis-width-99pct {
+    width: 99%;
+}
+
+/* dispay */
+.leis-flex {
+    display: flex;
+}
+
+.leis-gap-5 {
+    gap: 5px;
+}
+
+*:hover>.leis-tooltip {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1001;
+}

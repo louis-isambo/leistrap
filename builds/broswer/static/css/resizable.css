@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.resize {
+    position: absolute;
+    background-color: inherit;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.resize.right-resize {
+    right: 0;
+    top: 0;
+    cursor: e-resize;
+    width: 7px;
+    height: 100%;
+}
+
+.resize.left-resize {
+    left: 0;
+    top: 0;
+    cursor: e-resize;
+    width: 7px;
+    height: 100%;
+}
+
+.resize.bottom-resize {
+    bottom: 0;
+    left: 0;
+    cursor: s-resize;
+    width: 100%;
+    height: 7px;
+}
+
+.resize:hover {
+    background-color: var(--leis-resize-cl);
+}
+
+.card-resizable {
+    position: relative !important;
+}
+
+.resizing-right {
+    cursor: e-resize !important;
+}
+
+.resizing-right .resize.right-resize {
+    cursor: e-resize !important;
+    background-color: var(--leis-resize-cl);
+}

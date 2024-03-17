@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.sub-title {
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+    margin-bottom: 1.5rem;
+}
+
+[class *="alert"] {
+    margin-bottom: 1rem;
+}
+
+[class *="table-container"] {
+    overflow-x: auto;
+}
+
+.code-example {
+    background-color: #fbfbfb;
+    border-radius: 6px;
+    padding: 16px;
+    color: #111;
+    font-size: 17px;
+    margin-bottom: 1rem;
+    font-style: normal;
+    border: 0.5px solid #ddd;
+    white-space: nowrap;
+    font-family: var(--leis-font-monospace);
+    overflow: auto;
+}
+
+.version {
+    position: fixed;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+
+.intro,
+.leistrap-element,
+.compenents-list {
+    margin: 1rem auto;
+    padding: 2.5rem;
+    background-color: #fff !important;
+    width: calc(100% - (1rem + 25px));
+    min-height: calc(100vh - 2rem);
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    overflow-x: hidden;
+
+}
+
+.intro a:visited,
+.leistrap-element a:visited,
+.compenents-list a:visited {
+    color: var(--leis-danger-cl);
+    font-weight: 500 !important;
+}
+
+.intro p,
+.leistrap-element p {
+    margin-bottom: 1rem;
+}
+
+.leistrap-element table p {
+    font-size: inherit;
+    margin: 0;
+}
+
+.leistrap-element table {
+    margin-bottom: 1.5rem;
+}
+
+.leistrap-element [class*="alert"] {
+    font-size: inherit;
+}
+
+.tuto-main-content {
+    width: calc(100% - 250px);
+    height: 100vh;
+    margin-left: 250px;
+    padding: 3rem;
+}
+
+/* code example */
+.tab {
+    display: inline-block;
+    min-width: 28px;
+}
+
+.coli {
+    padding: 0 5px;
+}
+
+.fun {
+
+    font-style: italic;
+    color: rgb(207, 13, 214);
+}
+
+.keyHigh {
+    background-color: rgba(207, 207, 233, 0.501);
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.gutter-5 {
+    gap: 5px;
+}
+
+.children-m-l {
+    margin-bottom: 1rem;
+}
+
+.children-m-l p {
+    margin-right: 0.5rem;
+    display: inline-block;
+}
+
+.btn-component {
+    padding-bottom: 2rem;
+}
+
+.btn-component h4 {
+    margin-top: 2rem;
+    margin-bottom: 1.5remm;
+}
+
+.btn-component ul {
+    margin-left: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.help {
+    font-size: 3rem;
+    font-style: italic;
+    color: rgb(248, 50, 50);
+    background-color: rgba(253, 165, 165, 0.532);
+    padding: 16px;
+    border-radius: 6px;
+    margin: 1em auto;
+    border: 3px solid rgba(255, 103, 103, 0.866);
+}
+
+.btn-component ul li {
+    margin-bottom: 0.5rem;
+    background-color: #a3ace362;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 0 6px;
+}
+
+.df {
+    padding-bottom: 2rem;
+}
+
+.p {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+[class*="table"] {
+    margin-bottom: 1.5rem;
+}
